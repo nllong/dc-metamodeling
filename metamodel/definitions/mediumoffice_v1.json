@@ -1,0 +1,161 @@
+[
+  {
+    "results_file": "../../bem/simulations/dc_medium_office_v1/simulation_results.csv",
+    "building_type": "Medium Office",
+    "name": "mediumoffice_v1",
+    "display_name": "DC Medium Office",
+    "description": "Test dataset",
+    "validation_datapoint_id": "random",
+    "downsamples": [0.01, 0.02, 0.03, 0.05, 0.15, 0.25, 1.0],
+    "algorithm_options": {
+      "RandomForest": {
+        "_comments": "If downsamples are specified here, then they will override the parent values",
+        "downsamples": [0.15],
+        "param_grid": {
+          "_comments": "max_depth - default is None, max_features - default is p/3, min_samples_leaf - default is 1, min_samples_split - default is 2, n_estimators - default is 10",
+          "max_depth": [null, 3, 6],
+          "max_features": [0.50, 0.75],
+          "min_samples_leaf": [1, 2],
+          "min_samples_split": [3, 5],
+          "n_estimators": [50, 100]
+        },
+        "base_fit_params": {
+          "_comments": "These can take on python eval commands, see n_jobs as example.",
+          "max_depth": null,
+          "n_estimators": 20,
+          "min_samples_split": 2
+        }
+      }
+    },
+    "covariates": [
+      {
+        "name": "Month",
+        "display_name": "Month",
+        "units": "",
+        "type": "int",
+        "algorithm_options": {
+          "SVR": {
+            "variable_type": "cyclical",
+            "category_count": 12
+          }
+        }
+      },
+      {
+        "name": "Hour",
+        "display_name": "Hour",
+        "units": "",
+        "type": "int",
+        "algorithm_options": {
+          "SVR": {
+            "variable_type": "cyclical",
+            "category_count": 24
+          }
+        }
+      },
+      {
+        "name": "DayofWeek",
+        "display_name": "Day of Week",
+        "units": "",
+        "type": "int",
+        "algorithm_options": {
+          "SVR": {
+            "variable_type": "cyclical",
+            "category_count": 7
+          }
+        }
+      },
+      {
+        "name": "SiteOutdoorAirDrybulbTemperature",
+        "display_name": "Dry Bulb Temperature",
+        "units": "C",
+        "type": "float"
+      },
+      {
+        "name": "SiteOutdoorAirRelativeHumidity",
+        "display_name": "Relative Humidity",
+        "units": "%",
+        "type": "float"
+      },
+      {
+        "name": "floor_area",
+        "display_name": "Floor Area",
+        "units": "m2",
+        "type": "float"
+      },
+      {
+        "name": "floor_height",
+        "display_name": "Floor Height",
+        "units": "m",
+        "type": "float"
+      },
+      {
+        "name": "number_of_stories",
+        "display_name": "Number of Stories",
+        "units": "",
+        "type": "int"
+      },
+      {
+        "name": "building_rotation",
+        "display_name": "Building Rotation",
+        "units": "degrees",
+        "type": "float"
+      },
+      {
+        "name": "aspect_ratio",
+        "display_name": "Aspect Ratio",
+        "units": "",
+        "type": "float"
+      },
+      {
+        "name": "overall_wwr",
+        "display_name": "WWR",
+        "units": "",
+        "type": "float"
+      },
+      {
+        "name": "hours_of_operation_start_time",
+        "display_name": "Hours Start Time",
+        "units": "",
+        "type": "float"
+      },
+      {
+        "name": "hours_of_operation_duration",
+        "display_name": "Hours Duration",
+        "units": "",
+        "type": "float"
+      },
+      {
+        "name": "lpd",
+        "display_name": "LPD Average",
+        "units": "W/m2",
+        "type": "float"
+      },
+      {
+        "name": "epd",
+        "display_name": "EPD Average",
+        "units": "",
+        "type": "float"
+      },
+      {
+        "name": "people_average",
+        "display_name": "People Average",
+        "units": "",
+        "type": "float"
+      }
+    ],
+    "responses": [
+      {
+        "name": "ElectricityFacility",
+        "display_name": "Total Electric Energy",
+        "units": "J"
+      },
+      {
+        "name": "GasFacility",
+        "display_name": "Total Gas Energy",
+        "units": "J"
+      }
+    ]
+  }
+]
+
+

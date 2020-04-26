@@ -1,0 +1,24 @@
+
+
+-e file:/Users/nlong/working/urban-analysis/metamodeling-framework#egg=metamodeling-framework
+#-e git+https://github.com/RWTH-EBC/TEASER.git@0.7.2#egg=metamodeling-framework
+
+# solvers and optimizers
+cvxpy
+Platypus-Opt==1.0.4
+
+# other libraries
+slycot
+numpy
+scipy
+pandas
+control
+plotly
+matplotlib
+seaborn
+
+
+# for saving plotly images
+psutil
+requests
+
