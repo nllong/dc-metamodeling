@@ -1,24 +1,22 @@
-
-
+# metamodeling framework
 -e file:/Users/nlong/working/urban-analysis/metamodeling-framework#egg=metamodeling-framework
 #-e git+https://github.com/RWTH-EBC/TEASER.git@0.7.2#egg=metamodeling-framework
 
 # solvers and optimizers
-cvxpy
 Platypus-Opt==1.0.4
 
 # other libraries
 slycot
-numpy
-scipy
-pandas
 control
+numpy==1.18.3
+matplotlib==3.2.1
+pandas==1.0.3
+scipy==1.4.1
+seaborn==0.10.0
+pyfiglet==0.8.post1
+
+# plotly and required plotly packages to save the images
 plotly
-matplotlib
-seaborn
-
-
-# for saving plotly images
 psutil
-requests
+requests==2.23.0
 

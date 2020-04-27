@@ -8,14 +8,15 @@
 cd metamodel
 metamodel.py inspect -f definitions/mediumoffice_v1.json -a mediumoffice_v1 -m RandomForest
 metamodel.py inspect -f definitions/mediumoffice_v2.json -a mediumoffice_v2 -m RandomForest
+metamodel.py inspect -f definitions/mediumoffice_v3.json -a mediumoffice_v3 -m RandomForest
 ```
 
 * Build the RandomForest model
 
 ```bash
 metamodel.py build -f definitions/mediumoffice_v1.json -a mediumoffice_v1 -m RandomForest
-
 metamodel.py build -f definitions/mediumoffice_v2.json -a mediumoffice_v2 -m RandomForest
+metamodel.py build -f definitions/mediumoffice_v3.json -a mediumoffice_v3 -m RandomForest
 ```
 
 * Evaluate and Validate model
@@ -26,6 +27,9 @@ metamodel.py validate -f definitions/mediumoffice_v1.json -a mediumoffice_v1 -m 
 
 metamodel.py evaluate -f definitions/mediumoffice_v2.json -a mediumoffice_v2 -m RandomForest
 metamodel.py validate -f definitions/mediumoffice_v2.json -a mediumoffice_v2 -m RandomForest
+
+metamodel.py evaluate -f definitions/mediumoffice_v3.json -a mediumoffice_v3 -m RandomForest
+metamodel.py validate -f definitions/mediumoffice_v3.json -a mediumoffice_v3 -m RandomForest
 
 ```
 

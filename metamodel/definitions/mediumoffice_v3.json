@@ -1,8 +1,8 @@
 [
   {
-    "results_file": "../../bem/simulations/dc_medium_office_v2/simulation_results.csv",
+    "results_file": "../../bem/simulations/dc_medium_office_v3/simulation_results.csv",
     "building_type": "Medium Office",
-    "name": "mediumoffice_v2",
+    "name": "mediumoffice_v3",
     "display_name": "DC Medium Office",
     "description": "Test dataset",
     "validation_datapoint_id": "random",

@@ -48,7 +48,7 @@
     {
       "name": "aspect_ratio",
       "data_source": "value",
-      "value": 2
+      "value": {{aspect_ratio}}
     },
     {
       "name": "overall_wwr",
@@ -58,12 +58,12 @@
     {
       "name": "hours_of_operation_start_time",
       "data_source": "value",
-      "value": 7
+      "value": {{hours_of_operation_start}}
     },
     {
       "name": "hours_of_operation_duration",
       "data_source": "value",
-      "value": 12
+      "value": {{hours_of_operation_duration}}
     },
     {
       "name": "lpd",

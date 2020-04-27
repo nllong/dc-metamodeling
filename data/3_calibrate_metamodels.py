@@ -11,37 +11,23 @@ from functools import partial
 import random
 import shutil
 from jinja2 import Environment, PackageLoader
-from metamodeling.metamodels import Metamodels
 from metamodeling.analysis_definition.analysis_definition import AnalysisDefinition
+from data.lib.load_metamodels import load_metamodels
+
 
 # ------------ set values --------------
-OPTIMIZE_VERSION = 'v3'
-METAMODEL_VERSION = 'v3'
+OPTIMIZE_VERSION = 'v4'
+METAMODEL_VERSION = 'v4'
 DOWNSAMPLE_VALUE = 0.05
 random.seed(1880)
 
 env = Environment(loader=PackageLoader('metamodel', 'analysis_definitions'))
-medium_office_template = env.get_template('medium_office.json.template')
-# Load in the models for analysis
-metamodel = Metamodels(f'../metamodel/definitions/mediumoffice_{METAMODEL_VERSION}.json')
-metamodel.set_analysis(f'mediumoffice_{METAMODEL_VERSION}')
-metamodel_root_path = os.path.join(
-    os.path.dirname(__file__), '..', 'metamodel', 'output', f'mediumoffice_{METAMODEL_VERSION}'
-)
-# Load the existing models
-if metamodel.models_exist('RandomForest',
-                          models_to_load=['GasFacility', 'ElectricityFacility'],
-                          downsample=DOWNSAMPLE_VALUE, root_path=metamodel_root_path):
-    metamodel.load_models('RandomForest',
-                          models_to_load=['GasFacility', 'ElectricityFacility'],
-                          downsample=DOWNSAMPLE_VALUE, root_path=metamodel_root_path)
-else:
-    raise Exception('Metamodels do not exist')
+medium_office_template = env.get_template(f'medium_office_{METAMODEL_VERSION}.json.template')
+metamodel = load_metamodels(METAMODEL_VERSION, DOWNSAMPLE_VALUE)
 
 # List of buildings to optimize
 df = pd.read_csv('buildings_to_optimize.csv')
 print(df.describe())
-
 
 def run_sim(x, y, metamodel, output_dir, model_template, counter=[0], history=[]):
     counter[0] += 1
@@ -59,6 +45,7 @@ def run_sim(x, y, metamodel, output_dir, model_template, counter=[0], history=[]
         "aspect_ratio": x[2],
         "hours_of_operation_start": x[3],
         "hours_of_operation_duration": x[4],
+        "heating_source": x[5][0],
     }
     new_office_description = model_template.render(**template_data)
     input_file = os.path.join(sim_dir, 'medium_office.json')
@@ -121,7 +108,7 @@ def run_sim(x, y, metamodel, output_dir, model_template, counter=[0], history=[]
     print(f"eui_hat: {eui_hat} | eui_actual: {eui_actual} | {eui_error}")
 
     # minimize to 0
-    return eui_error, electricity_error, gas_error
+    return electricity_error, gas_error
 
 
 optimize_path = os.path.join(os.path.dirname(__file__), 'output', f'optimize_{OPTIMIZE_VERSION}')
@@ -141,13 +128,15 @@ for index, row in df.iterrows():
         run_sim, y=row, metamodel=metamodel, output_dir=building_dir, model_template=medium_office_template,
         counter=counter, history=history
     )
-    problem = Problem(nvars=5, nobjs=3, function=f_partial)
+    problem = Problem(nvars=6, nobjs=2, function=f_partial)
     # problem.types[0] = Subset(['a', 'b'], 1)
     problem.types[0] = Real(1, 20)  # lpd
     problem.types[1] = Subset(range(1, 13), 1)  # number of stories
     problem.types[2] = Real(1, 5)  # aspect_ratio
     problem.types[3] = Real(6, 10)  # hours_of_operation_start
     problem.types[4] = Real(8, 16)  # hours_of_operation_duration
+    problem.types[5] = Subset(['Electricity', 'NaturalGas'], 1)  # heating source
+    # problem.types[6] = Subset(['Electricity', 'NaturalGas'], 1)  # heating source
 
     # problem.types[1] = Integer(1, 13)
     algorithm = NSGAII(problem, population_size=15, variator=SSX())

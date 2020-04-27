@@ -1,8 +1,8 @@
 [
   {
-    "results_file": "../../bem/simulations/dc_medium_office_v1/simulation_results.csv",
+    "results_file": "../../bem/simulations/dc_medium_office_v4/simulation_results.csv",
     "building_type": "Medium Office",
-    "name": "mediumoffice_v1_ws",
+    "name": "mediumoffice_v4",
     "display_name": "DC Medium Office",
     "description": "Test dataset",
     "validation_datapoint_id": "random",
@@ -10,14 +10,14 @@
     "algorithm_options": {
       "RandomForest": {
         "_comments": "If downsamples are specified here, then they will override the parent values",
-        "downsamples": [0.15],
+        "downsamples": [0.05],
         "param_grid": {
           "_comments": "max_depth - default is None, max_features - default is p/3, min_samples_leaf - default is 1, min_samples_split - default is 2, n_estimators - default is 10",
           "max_depth": [null, 3, 6],
-          "max_features": [0.50, 0.66, 0.75],
-          "min_samples_leaf": [1, 2, 4],
-          "min_samples_split": [2, 3, 5],
-          "n_estimators": [10, 100, 200]
+          "max_features": [0.50, 0.75],
+          "min_samples_leaf": [1, 2],
+          "min_samples_split": [3, 5],
+          "n_estimators": [50, 100]
         },
         "base_fit_params": {
           "_comments": "These can take on python eval commands, see n_jobs as example.",
@@ -134,13 +134,13 @@
         "name": "hours_of_operation_start_time",
         "display_name": "Hours Start Time",
         "units": "",
-        "type": "str"
+        "type": "float"
       },
       {
         "name": "hours_of_operation_duration",
         "display_name": "Hours Duration",
         "units": "",
-        "type": "str"
+        "type": "float"
       },
       {
         "name": "lpd",
@@ -163,18 +163,13 @@
     ],
     "responses": [
       {
-        "name": "HeatingElectricity",
-        "display_name": "Heating Electric Energy",
-        "units": "J"
-      },
-      {
-        "name": "CoolingElectricity",
-        "display_name": "Cooling Electric Energy",
-        "units": "J"
-      },
-      {
         "name": "ElectricityFacility",
         "display_name": "Total Electric Energy",
+        "units": "J"
+      },
+      {
+        "name": "GasFacility",
+        "display_name": "Total Gas Energy",
         "units": "J"
       }
     ]

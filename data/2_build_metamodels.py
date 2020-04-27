@@ -3,7 +3,7 @@
 import os
 import subprocess
 
-METAMODEL_VERSION = 'v3'
+METAMODEL_VERSION = 'v4'
 
 
 def run_command(run_dir, command):

@@ -5,10 +5,10 @@ import os
 from metamodeling.post_process.json_processor import JsonProcessorFile
 from metamodeling.post_process.openstudio_server import OpenStudioServerAPI
 
-ANALYSIS_ID = "1da39de3-dcd0-4ca9-bade-ee701240f388"
-DOWNLOAD_NAME = "dc_medium_office_v2"
-SERVER_URL = "http://bball-130553.nrel.gov"
-# SERVER_URL = "http://localhost"
+ANALYSIS_ID = "179f9bb9-dd28-4d2c-84f7-5bdfd8f4d421"
+DOWNLOAD_NAME = "dc_medium_office_v3"
+# SERVER_URL = "http://bball-130553.nrel.gov"
+SERVER_URL = "http://localhost"
 SERVER_PORT = "8080"
 
 base_dir = os.path.join(os.path.dirname(__file__), "simulations", DOWNLOAD_NAME)
