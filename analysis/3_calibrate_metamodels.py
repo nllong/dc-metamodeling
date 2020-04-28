@@ -12,7 +12,7 @@ import random
 import shutil
 from jinja2 import Environment, PackageLoader
 from metamodeling.analysis_definition.analysis_definition import AnalysisDefinition
-from data.lib.load_metamodels import load_metamodels
+from analysis.lib.load_metamodels import load_metamodels
 
 
 # ------------ set values --------------
