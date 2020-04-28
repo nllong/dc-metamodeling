@@ -3,7 +3,7 @@
 .python-version
 .ipynb_checkpoints
 *.swp
-
+__pycache__
 assignment
 paper
 

@@ -1,0 +1,5002 @@
+[
+  {
+    "index": 1,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.662154249634711,
+      "number_of_stories": 6,
+      "aspect_ratio": 1.915295692117163,
+      "hours_of_operation_start": 6.263590730749964,
+      "hours_of_operation_duration": 10.100496063151933,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 774376.2469402818,
+      "gas_hat": 1093.7337156059489,
+      "eui_hat": 50.431545566730875,
+      "electricity_error": 569829.8530597183,
+      "gas_error": 1093.7337156059489,
+      "eui_error": 33.66845443326912
+    }
+  },
+  {
+    "index": 2,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.008512510345327,
+      "number_of_stories": 1,
+      "aspect_ratio": 4.1113686108776,
+      "hours_of_operation_start": 7.2817532544009875,
+      "hours_of_operation_duration": 9.929178214120036,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 902982.7246861141,
+      "gas_hat": 1124.1050447715943,
+      "eui_hat": 58.52983066543587,
+      "electricity_error": 441223.375313886,
+      "gas_error": 1124.1050447715943,
+      "eui_error": 25.570169334564127
+    }
+  },
+  {
+    "index": 3,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.024457061730686,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.1303565769681665,
+      "hours_of_operation_start": 9.777442077459778,
+      "hours_of_operation_duration": 11.527871130230936,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 952245.4197430592,
+      "gas_hat": 5357.835126663682,
+      "eui_hat": 69.37032413544146,
+      "electricity_error": 391960.6802569409,
+      "gas_error": 5357.835126663682,
+      "eui_error": 14.72967586455853
+    }
+  },
+  {
+    "index": 4,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.97311509688197,
+      "number_of_stories": 7,
+      "aspect_ratio": 4.041613306645857,
+      "hours_of_operation_start": 7.465607959345903,
+      "hours_of_operation_duration": 15.005115303170776,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1028232.026318058,
+      "gas_hat": 1343.6670011551344,
+      "eui_hat": 66.76492620807785,
+      "electricity_error": 315974.07368194207,
+      "gas_error": 1343.6670011551344,
+      "eui_error": 17.33507379192214
+    }
+  },
+  {
+    "index": 5,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.835391810695647,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.9616400793775668,
+      "hours_of_operation_start": 8.798473938129634,
+      "hours_of_operation_duration": 9.883107285651903,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 755208.5360624971,
+      "gas_hat": 1002.2290287320309,
+      "eui_hat": 49.06514713926765,
+      "electricity_error": 588997.563937503,
+      "gas_error": 1002.2290287320309,
+      "eui_error": 35.03485286073234
+    }
+  },
+  {
+    "index": 6,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.01340646247281,
+      "number_of_stories": 8,
+      "aspect_ratio": 2.161786543015914,
+      "hours_of_operation_start": 9.002432189643127,
+      "hours_of_operation_duration": 9.197707432578692,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 722049.4561986133,
+      "gas_hat": 1025.7356536769396,
+      "eui_hat": 47.034573128983915,
+      "electricity_error": 622156.6438013868,
+      "gas_error": 1025.7356536769396,
+      "eui_error": 37.06542687101608
+    }
+  },
+  {
+    "index": 7,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.545250599570142,
+      "number_of_stories": 3,
+      "aspect_ratio": 4.692819962285145,
+      "hours_of_operation_start": 9.673098300218722,
+      "hours_of_operation_duration": 9.49274730093851,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 872381.3421361123,
+      "gas_hat": 1135.360621616288,
+      "eui_hat": 56.63675222745681,
+      "electricity_error": 471824.7578638878,
+      "gas_error": 1135.360621616288,
+      "eui_error": 27.463247772543184
+    }
+  },
+  {
+    "index": 8,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.134533500054907,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.2146136801584326,
+      "hours_of_operation_start": 7.095191419054888,
+      "hours_of_operation_duration": 10.66619786630168,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 878646.8401736099,
+      "gas_hat": 1720.6722568589093,
+      "eui_hat": 58.10136078369222,
+      "electricity_error": 465559.2598263902,
+      "gas_error": 1720.6722568589093,
+      "eui_error": 25.998639216307772
+    }
+  },
+  {
+    "index": 9,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.515580027459423,
+      "number_of_stories": 12,
+      "aspect_ratio": 4.039974843111855,
+      "hours_of_operation_start": 7.065757332216879,
+      "hours_of_operation_duration": 12.15703325059533,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 962472.231554169,
+      "gas_hat": 5265.837108202577,
+      "eui_hat": 69.84125668773977,
+      "electricity_error": 381733.8684458311,
+      "gas_error": 5265.837108202577,
+      "eui_error": 14.258743312260222
+    }
+  },
+  {
+    "index": 10,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.344023429465961,
+      "number_of_stories": 11,
+      "aspect_ratio": 3.4813896076443434,
+      "hours_of_operation_start": 7.230003154648475,
+      "hours_of_operation_duration": 12.756697936898593,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 807658.2308500007,
+      "gas_hat": 5184.908420799231,
+      "eui_hat": 60.01137693805215,
+      "electricity_error": 536547.8691499993,
+      "gas_error": 5184.908420799231,
+      "eui_error": 24.088623061947843
+    }
+  },
+  {
+    "index": 11,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.153283188170434,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.909323172074734,
+      "hours_of_operation_start": 6.305717985759512,
+      "hours_of_operation_duration": 13.358682391801025,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1024864.5319569425,
+      "gas_hat": 5106.137784032761,
+      "eui_hat": 73.45035853079845,
+      "electricity_error": 319341.5680430576,
+      "gas_error": 5106.137784032761,
+      "eui_error": 10.64964146920154
+    }
+  },
+  {
+    "index": 12,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.588124761063305,
+      "number_of_stories": 12,
+      "aspect_ratio": 4.612973652036391,
+      "hours_of_operation_start": 8.680627376168657,
+      "hours_of_operation_duration": 10.33564374260085,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 837759.1108527763,
+      "gas_hat": 1110.8039673912199,
+      "eui_hat": 54.42658509840166,
+      "electricity_error": 506446.98914722377,
+      "gas_error": 1110.8039673912199,
+      "eui_error": 29.673414901598335
+    }
+  },
+  {
+    "index": 13,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.623326364812062,
+      "number_of_stories": 3,
+      "aspect_ratio": 2.6513765428896994,
+      "hours_of_operation_start": 8.900286689754157,
+      "hours_of_operation_duration": 8.799437203492719,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 748442.4935819434,
+      "gas_hat": 969.1179416224994,
+      "eui_hat": 48.581333985774215,
+      "electricity_error": 595763.6064180566,
+      "gas_error": 969.1179416224994,
+      "eui_error": 35.51866601422578
+    }
+  },
+  {
+    "index": 14,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.3341852269871215,
+      "number_of_stories": 9,
+      "aspect_ratio": 1.9498842758726185,
+      "hours_of_operation_start": 7.708275254867232,
+      "hours_of_operation_duration": 14.400468594735049,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 876376.4794527781,
+      "gas_hat": 1294.662003167003,
+      "eui_hat": 57.17856943199375,
+      "electricity_error": 467829.620547222,
+      "gas_error": 1294.662003167003,
+      "eui_error": 26.921430568006244
+    }
+  },
+  {
+    "index": 15,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.640539343700535,
+      "number_of_stories": 4,
+      "aspect_ratio": 3.443537500700166,
+      "hours_of_operation_start": 9.80590428497485,
+      "hours_of_operation_duration": 13.697030966477948,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 995890.2789472202,
+      "gas_hat": 1178.8297713918491,
+      "eui_hat": 64.44026042718292,
+      "electricity_error": 348315.8210527799,
+      "gas_error": 1178.8297713918491,
+      "eui_error": 19.659739572817074
+    }
+  },
+  {
+    "index": 16,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.84054999716805,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.4406258910634615,
+      "hours_of_operation_start": 8.755363549418337,
+      "hours_of_operation_duration": 8.609658236970951,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 783293.5503236124,
+      "gas_hat": 1674.1915775378966,
+      "eui_hat": 52.05309295194199,
+      "electricity_error": 560912.5496763877,
+      "gas_error": 1674.1915775378966,
+      "eui_error": 32.046907048058
+    }
+  },
+  {
+    "index": 17,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.36100569099785,
+      "number_of_stories": 1,
+      "aspect_ratio": 2.263435506725578,
+      "hours_of_operation_start": 9.726047627158966,
+      "hours_of_operation_duration": 10.059137005534645,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 769244.538305559,
+      "gas_hat": 1073.2170968802218,
+      "eui_hat": 50.0730218912498,
+      "electricity_error": 574961.5616944411,
+      "gas_error": 1073.2170968802218,
+      "eui_error": 34.02697810875019
+    }
+  },
+  {
+    "index": 18,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.821540830284314,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.9394525091203603,
+      "hours_of_operation_start": 6.850624735330572,
+      "hours_of_operation_duration": 14.919103980405403,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 925519.0912777751,
+      "gas_hat": 1884.7174207037474,
+      "eui_hat": 61.33326395729735,
+      "electricity_error": 418687.008722225,
+      "gas_error": 1884.7174207037474,
+      "eui_error": 22.766736042702647
+    }
+  },
+  {
+    "index": 19,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.121007694358974,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.111796040105069,
+      "hours_of_operation_start": 7.532875770290017,
+      "hours_of_operation_duration": 14.67366136767997,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 929781.5855375011,
+      "gas_hat": 1243.5614880547419,
+      "eui_hat": 60.424686925576026,
+      "electricity_error": 414424.51446249895,
+      "gas_error": 1243.5614880547419,
+      "eui_error": 23.67531307442397
+    }
+  },
+  {
+    "index": 20,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.347616472111962,
+      "number_of_stories": 12,
+      "aspect_ratio": 1.4034490916621367,
+      "hours_of_operation_start": 7.543469472098206,
+      "hours_of_operation_duration": 13.478525362909313,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 980748.0371277822,
+      "gas_hat": 1188.3799156488583,
+      "eui_hat": 63.510819176042496,
+      "electricity_error": 363458.06287221785,
+      "gas_error": 1188.3799156488583,
+      "eui_error": 20.5891808239575
+    }
+  },
+  {
+    "index": 21,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.807226444282712,
+      "number_of_stories": 11,
+      "aspect_ratio": 4.518464841313678,
+      "hours_of_operation_start": 8.69036674989745,
+      "hours_of_operation_duration": 10.88558222961617,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 894895.9788625007,
+      "gas_hat": 1155.7732397508903,
+      "eui_hat": 58.0821554958567,
+      "electricity_error": 449310.12113749934,
+      "gas_error": 1155.7732397508903,
+      "eui_error": 26.01784450414329
+    }
+  },
+  {
+    "index": 22,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.8242601060720216,
+      "number_of_stories": 6,
+      "aspect_ratio": 2.9920048375496004,
+      "hours_of_operation_start": 8.944089548701346,
+      "hours_of_operation_duration": 8.98468860191472,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 701185.9603763875,
+      "gas_hat": 5302.990510296787,
+      "eui_hat": 53.56938320809958,
+      "electricity_error": 643020.1396236126,
+      "gas_error": 5302.990510296787,
+      "eui_error": 30.530616791900414
+    }
+  },
+  {
+    "index": 23,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.190429441649133,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.9333504352949085,
+      "hours_of_operation_start": 9.851862383798265,
+      "hours_of_operation_duration": 13.969160295896069,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1098908.8673069482,
+      "gas_hat": 1349.647152702108,
+      "eui_hat": 71.1957802514941,
+      "electricity_error": 245297.23269305192,
+      "gas_error": 1349.647152702108,
+      "eui_error": 12.904219748505895
+    }
+  },
+  {
+    "index": 24,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.05044976754731,
+      "number_of_stories": 6,
+      "aspect_ratio": 1.287694606817488,
+      "hours_of_operation_start": 6.836627249620738,
+      "hours_of_operation_duration": 14.08035962408353,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 992519.4708291662,
+      "gas_hat": 4967.271782482051,
+      "eui_hat": 71.17308674335264,
+      "electricity_error": 351686.62917083385,
+      "gas_error": 4967.271782482051,
+      "eui_error": 12.926913256647353
+    }
+  },
+  {
+    "index": 25,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.1386549266583623,
+      "number_of_stories": 3,
+      "aspect_ratio": 2.683987132158408,
+      "hours_of_operation_start": 7.7864119984577655,
+      "hours_of_operation_duration": 8.579570436429066,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 752794.2306013936,
+      "gas_hat": 1646.4645717094427,
+      "eui_hat": 50.09494816684199,
+      "electricity_error": 591411.8693986065,
+      "gas_error": 1646.4645717094427,
+      "eui_error": 34.00505183315801
+    }
+  },
+  {
+    "index": 26,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.342692633662931,
+      "number_of_stories": 11,
+      "aspect_ratio": 4.537001346894897,
+      "hours_of_operation_start": 9.691708089902342,
+      "hours_of_operation_duration": 14.34678891990626,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 999105.443208329,
+      "gas_hat": 1445.4428902343354,
+      "eui_hat": 65.12998645986532,
+      "electricity_error": 345100.65679167106,
+      "gas_error": 1445.4428902343354,
+      "eui_error": 18.970013540134673
+    }
+  },
+  {
+    "index": 27,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.290888829131495,
+      "number_of_stories": 10,
+      "aspect_ratio": 3.5964919555958166,
+      "hours_of_operation_start": 7.1783990007048075,
+      "hours_of_operation_duration": 14.702397513730848,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 852400.0224333352,
+      "gas_hat": 5373.689195315459,
+      "eui_hat": 63.1553848254048,
+      "electricity_error": 491806.0775666649,
+      "gas_error": 5373.689195315459,
+      "eui_error": 20.944615174595192
+    }
+  },
+  {
+    "index": 28,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.802971233768066,
+      "number_of_stories": 8,
+      "aspect_ratio": 4.242423503524761,
+      "hours_of_operation_start": 9.72287311637515,
+      "hours_of_operation_duration": 12.990258978043032,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 995171.0449152789,
+      "gas_hat": 5374.057483878423,
+      "eui_hat": 72.08448228810069,
+      "electricity_error": 349035.0550847212,
+      "gas_error": 5374.057483878423,
+      "eui_error": 12.015517711899307
+    }
+  },
+  {
+    "index": 29,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.749067196191287,
+      "number_of_stories": 1,
+      "aspect_ratio": 3.7491503670390514,
+      "hours_of_operation_start": 7.052644966631437,
+      "hours_of_operation_duration": 10.072783148604309,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 822055.8005458307,
+      "gas_hat": 1051.021851093824,
+      "eui_hat": 53.334981242150974,
+      "electricity_error": 522150.29945416935,
+      "gas_error": 1051.021851093824,
+      "eui_error": 30.76501875784902
+    }
+  },
+  {
+    "index": 30,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.1653120972449522,
+      "number_of_stories": 3,
+      "aspect_ratio": 1.9156185512126056,
+      "hours_of_operation_start": 7.222792624068624,
+      "hours_of_operation_duration": 14.90248676189013,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 909121.9880041626,
+      "gas_hat": 1895.473858939472,
+      "eui_hat": 60.32755881532532,
+      "electricity_error": 435084.11199583753,
+      "gas_error": 1895.473858939472,
+      "eui_error": 23.772441184674676
+    }
+  },
+  {
+    "index": 31,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.065174593957622,
+      "number_of_stories": 10,
+      "aspect_ratio": 1.8789707690917892,
+      "hours_of_operation_start": 7.0733491103243775,
+      "hours_of_operation_duration": 9.9521847400973,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 756287.4751388843,
+      "gas_hat": 4731.573642119895,
+      "eui_hat": 55.967929424227684,
+      "electricity_error": 587918.6248611158,
+      "gas_error": 4731.573642119895,
+      "eui_error": 28.13207057577231
+    }
+  },
+  {
+    "index": 32,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.119117189384405,
+      "number_of_stories": 12,
+      "aspect_ratio": 2.9379051065619914,
+      "hours_of_operation_start": 8.687938978628939,
+      "hours_of_operation_duration": 13.215992851254498,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 827463.2246986097,
+      "gas_hat": 5244.406434422147,
+      "eui_hat": 61.35896565457975,
+      "electricity_error": 516742.8753013904,
+      "gas_error": 5244.406434422147,
+      "eui_error": 22.741034345420246
+    }
+  },
+  {
+    "index": 33,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.4512686316676113,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.73858317916015,
+      "hours_of_operation_start": 8.4231571560407,
+      "hours_of_operation_duration": 9.135293141797026,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 817943.2772000013,
+      "gas_hat": 5357.840896248135,
+      "eui_hat": 60.971527702185085,
+      "electricity_error": 526262.8227999988,
+      "gas_error": 5357.840896248135,
+      "eui_error": 23.12847229781491
+    }
+  },
+  {
+    "index": 34,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.677672540301925,
+      "number_of_stories": 2,
+      "aspect_ratio": 4.000857417434558,
+      "hours_of_operation_start": 9.27625955357265,
+      "hours_of_operation_duration": 14.570215681971952,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1001096.9073152767,
+      "gas_hat": 2223.7234880116494,
+      "eui_hat": 66.68099333872597,
+      "electricity_error": 343109.1926847234,
+      "gas_error": 2223.7234880116494,
+      "eui_error": 17.419006661274025
+    }
+  },
+  {
+    "index": 35,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.49205407528092,
+      "number_of_stories": 10,
+      "aspect_ratio": 4.631632690215006,
+      "hours_of_operation_start": 9.025588017870444,
+      "hours_of_operation_duration": 10.409745675564563,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 833206.4066611105,
+      "gas_hat": 5269.434203080155,
+      "eui_hat": 61.76399706443777,
+      "electricity_error": 510999.6933388896,
+      "gas_error": 5269.434203080155,
+      "eui_error": 22.336002935562227
+    }
+  },
+  {
+    "index": 36,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.40084086599299,
+      "number_of_stories": 3,
+      "aspect_ratio": 2.669194244773059,
+      "hours_of_operation_start": 9.894585758384926,
+      "hours_of_operation_duration": 11.603074375880254,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 870836.0112833295,
+      "gas_hat": 1129.0040794417646,
+      "eui_hat": 56.52846184829356,
+      "electricity_error": 473370.08871667064,
+      "gas_error": 1129.0040794417646,
+      "eui_error": 27.571538151706434
+    }
+  },
+  {
+    "index": 37,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.033943589648946,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.5248440817193947,
+      "hours_of_operation_start": 9.310314039627581,
+      "hours_of_operation_duration": 8.206227011110286,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 699165.2987041654,
+      "gas_hat": 4795.5289517996625,
+      "eui_hat": 52.51291961800913,
+      "electricity_error": 645040.8012958347,
+      "gas_error": 4795.5289517996625,
+      "eui_error": 31.587080381990866
+    }
+  },
+  {
+    "index": 38,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.629404233984918,
+      "number_of_stories": 2,
+      "aspect_ratio": 3.965679970491331,
+      "hours_of_operation_start": 9.142508894423363,
+      "hours_of_operation_duration": 14.501483822638626,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1017471.9530208351,
+      "gas_hat": 1301.2797353679098,
+      "eui_hat": 66.0143379260242,
+      "electricity_error": 326734.14697916503,
+      "gas_error": 1301.2797353679098,
+      "eui_error": 18.085662073975797
+    }
+  },
+  {
+    "index": 39,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.452074995826669,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.669056786920912,
+      "hours_of_operation_start": 9.58105992899747,
+      "hours_of_operation_duration": 15.5050020175183,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1015211.9483666657,
+      "gas_hat": 5376.418816796095,
+      "eui_hat": 73.34210134726307,
+      "electricity_error": 328994.15163333435,
+      "gas_error": 5376.418816796095,
+      "eui_error": 10.757898652736927
+    }
+  },
+  {
+    "index": 40,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.1787117698361245,
+      "number_of_stories": 12,
+      "aspect_ratio": 2.4668961276401413,
+      "hours_of_operation_start": 7.539070666872148,
+      "hours_of_operation_duration": 12.331176175016417,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 827503.1621138895,
+      "gas_hat": 1141.439755519012,
+      "eui_hat": 53.84136298908527,
+      "electricity_error": 516702.9378861106,
+      "gas_error": 1141.439755519012,
+      "eui_error": 30.258637010914725
+    }
+  },
+  {
+    "index": 41,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.465260228634566,
+      "number_of_stories": 1,
+      "aspect_ratio": 3.416589497743886,
+      "hours_of_operation_start": 7.77711764993261,
+      "hours_of_operation_duration": 8.695696989564816,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 767443.3459958318,
+      "gas_hat": 995.7456638265173,
+      "eui_hat": 49.81838825000787,
+      "electricity_error": 576762.7540041683,
+      "gas_error": 995.7456638265173,
+      "eui_error": 34.28161174999212
+    }
+  },
+  {
+    "index": 42,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.023743331445932,
+      "number_of_stories": 5,
+      "aspect_ratio": 3.9026937415997316,
+      "hours_of_operation_start": 6.5193294702834255,
+      "hours_of_operation_duration": 8.363722691230583,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 870940.7573305558,
+      "gas_hat": 1009.9664225684975,
+      "eui_hat": 56.31683479231499,
+      "electricity_error": 473265.3426694443,
+      "gas_error": 1009.9664225684975,
+      "eui_error": 27.783165207685002
+    }
+  },
+  {
+    "index": 43,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.0192969286300295,
+      "number_of_stories": 1,
+      "aspect_ratio": 2.642044564111332,
+      "hours_of_operation_start": 6.566998853512789,
+      "hours_of_operation_duration": 15.460099689172502,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 891404.6689486109,
+      "gas_hat": 1278.3569226199224,
+      "eui_hat": 58.088497483772954,
+      "electricity_error": 452801.4310513892,
+      "gas_error": 1278.3569226199224,
+      "eui_error": 26.01150251622704
+    }
+  },
+  {
+    "index": 44,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.814083811033157,
+      "number_of_stories": 3,
+      "aspect_ratio": 1.410464636271231,
+      "hours_of_operation_start": 8.202250438461501,
+      "hours_of_operation_duration": 10.985311518632077,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 888690.8012583344,
+      "gas_hat": 1718.0132003940032,
+      "eui_hat": 58.72460289466344,
+      "electricity_error": 455515.29874166567,
+      "gas_error": 1718.0132003940032,
+      "eui_error": 25.375397105336553
+    }
+  },
+  {
+    "index": 45,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.684111723554434,
+      "number_of_stories": 1,
+      "aspect_ratio": 4.180103033414468,
+      "hours_of_operation_start": 7.870850521784384,
+      "hours_of_operation_duration": 8.519935385707015,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 877106.7272375022,
+      "gas_hat": 1076.152853857298,
+      "eui_hat": 56.82374337830072,
+      "electricity_error": 467099.37276249786,
+      "gas_error": 1076.152853857298,
+      "eui_error": 27.276256621699275
+    }
+  },
+  {
+    "index": 46,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.50817446035097,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.723131258206701,
+      "hours_of_operation_start": 7.2033073805429755,
+      "hours_of_operation_duration": 9.11664656166493,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 843068.4599111121,
+      "gas_hat": 4951.303321558562,
+      "eui_hat": 61.79765244451193,
+      "electricity_error": 501137.640088888,
+      "gas_error": 4951.303321558562,
+      "eui_error": 22.302347555488062
+    }
+  },
+  {
+    "index": 47,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.18916995649658,
+      "number_of_stories": 2,
+      "aspect_ratio": 1.475485454934343,
+      "hours_of_operation_start": 7.165618207018866,
+      "hours_of_operation_duration": 9.911995194315498,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 829139.9522500025,
+      "gas_hat": 1699.2885110723885,
+      "eui_hat": 54.96617243739457,
+      "electricity_error": 515066.14774999756,
+      "gas_error": 1699.2885110723885,
+      "eui_error": 29.133827562605425
+    }
+  },
+  {
+    "index": 48,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.18606225102588,
+      "number_of_stories": 9,
+      "aspect_ratio": 3.4029683507821487,
+      "hours_of_operation_start": 7.833881009203454,
+      "hours_of_operation_duration": 10.599753575088727,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 766840.8668930534,
+      "gas_hat": 4899.064492669975,
+      "eui_hat": 56.93488796015572,
+      "electricity_error": 577365.2331069467,
+      "gas_error": 4899.064492669975,
+      "eui_error": 27.165112039844274
+    }
+  },
+  {
+    "index": 49,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.987276038505767,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.777166209627703,
+      "hours_of_operation_start": 6.277654424114749,
+      "hours_of_operation_duration": 8.834034042925655,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 777737.4875791697,
+      "gas_hat": 1070.103742577475,
+      "eui_hat": 50.598436251427316,
+      "electricity_error": 566468.6124208304,
+      "gas_error": 1070.103742577475,
+      "eui_error": 33.50156374857268
+    }
+  },
+  {
+    "index": 50,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.426333590800064,
+      "number_of_stories": 11,
+      "aspect_ratio": 2.4519240224545977,
+      "hours_of_operation_start": 8.350474026161226,
+      "hours_of_operation_duration": 11.590732033328553,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 832650.2736597235,
+      "gas_hat": 4983.354206927298,
+      "eui_hat": 61.204878196842124,
+      "electricity_error": 511555.82634027663,
+      "gas_error": 4983.354206927298,
+      "eui_error": 22.89512180315787
+    }
+  },
+  {
+    "index": 51,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.788439090736654,
+      "number_of_stories": 1,
+      "aspect_ratio": 2.518814017324805,
+      "hours_of_operation_start": 7.691274844313323,
+      "hours_of_operation_duration": 9.811809968049875,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 777324.5520791651,
+      "gas_hat": 1682.7128179393303,
+      "eui_hat": 51.695429865983215,
+      "electricity_error": 566881.547920835,
+      "gas_error": 1682.7128179393303,
+      "eui_error": 32.40457013401678
+    }
+  },
+  {
+    "index": 52,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.624558069093375,
+      "number_of_stories": 8,
+      "aspect_ratio": 1.151250545896351,
+      "hours_of_operation_start": 6.0633647587372685,
+      "hours_of_operation_duration": 9.001665603921232,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 852835.3364125007,
+      "gas_hat": 1077.0067416057175,
+      "eui_hat": 55.30745678152537,
+      "electricity_error": 491370.7635874994,
+      "gas_error": 1077.0067416057175,
+      "eui_error": 28.792543218474627
+    }
+  },
+  {
+    "index": 53,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.258517061736054,
+      "number_of_stories": 10,
+      "aspect_ratio": 4.138820039911061,
+      "hours_of_operation_start": 9.510734415162878,
+      "hours_of_operation_duration": 12.534082617153944,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 941935.92841667,
+      "gas_hat": 5381.161494101852,
+      "eui_hat": 68.76835661964559,
+      "electricity_error": 402270.17158333014,
+      "gas_error": 5381.161494101852,
+      "eui_error": 15.331643380354407
+    }
+  },
+  {
+    "index": 54,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.694905559654702,
+      "number_of_stories": 2,
+      "aspect_ratio": 2.42356626035245,
+      "hours_of_operation_start": 6.191170663041951,
+      "hours_of_operation_duration": 14.87981021253407,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 967029.6191416695,
+      "gas_hat": 1898.0731862297064,
+      "eui_hat": 63.95367263809287,
+      "electricity_error": 377176.4808583306,
+      "gas_error": 1898.0731862297064,
+      "eui_error": 20.146327361907126
+    }
+  },
+  {
+    "index": 55,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.085827199215288,
+      "number_of_stories": 8,
+      "aspect_ratio": 2.283761536010193,
+      "hours_of_operation_start": 7.6136043914057225,
+      "hours_of_operation_duration": 10.331688660854752,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 762220.3127777808,
+      "gas_hat": 1053.5577327930212,
+      "eui_hat": 49.59771775067981,
+      "electricity_error": 581985.7872222193,
+      "gas_error": 1053.5577327930212,
+      "eui_error": 34.50228224932018
+    }
+  },
+  {
+    "index": 56,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.585070372469737,
+      "number_of_stories": 7,
+      "aspect_ratio": 1.2509051869342027,
+      "hours_of_operation_start": 6.339784638900072,
+      "hours_of_operation_duration": 10.232406490302584,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 857141.9604402722,
+      "gas_hat": 1077.9773957232364,
+      "eui_hat": 55.57855770884407,
+      "electricity_error": 487064.13955972786,
+      "gas_error": 1077.9773957232364,
+      "eui_error": 28.52144229115592
+    }
+  },
+  {
+    "index": 57,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.771022376808903,
+      "number_of_stories": 2,
+      "aspect_ratio": 4.7662093877786385,
+      "hours_of_operation_start": 9.967276855899437,
+      "hours_of_operation_duration": 12.211822265324887,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1035184.1562486156,
+      "gas_hat": 1226.1626667069177,
+      "eui_hat": 66.98432199030367,
+      "electricity_error": 309021.9437513845,
+      "gas_error": 1226.1626667069177,
+      "eui_error": 17.115678009696325
+    }
+  },
+  {
+    "index": 58,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.178602919104875,
+      "number_of_stories": 12,
+      "aspect_ratio": 4.580906501042353,
+      "hours_of_operation_start": 7.473108337326442,
+      "hours_of_operation_duration": 8.40762003832707,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 845093.5193388882,
+      "gas_hat": 5299.234886191842,
+      "eui_hat": 62.5619973717645,
+      "electricity_error": 499112.58066111186,
+      "gas_error": 5299.234886191842,
+      "eui_error": 21.538002628235496
+    }
+  },
+  {
+    "index": 59,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.1297922119174775,
+      "number_of_stories": 7,
+      "aspect_ratio": 3.2646491098876904,
+      "hours_of_operation_start": 7.4031402036348855,
+      "hours_of_operation_duration": 14.830941317007685,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 844356.523502782,
+      "gas_hat": 5451.937005019272,
+      "eui_hat": 62.79578736608173,
+      "electricity_error": 499849.5764972181,
+      "gas_error": 5451.937005019272,
+      "eui_error": 21.30421263391826
+    }
+  },
+  {
+    "index": 60,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.793358773068306,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.042186664028327,
+      "hours_of_operation_start": 9.411432203288243,
+      "hours_of_operation_duration": 12.293429735237767,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 929187.8594041676,
+      "gas_hat": 4999.705386361387,
+      "eui_hat": 67.27198524419279,
+      "electricity_error": 415018.24059583247,
+      "gas_error": 4999.705386361387,
+      "eui_error": 16.828014755807203
+    }
+  },
+  {
+    "index": 61,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.495796686255838,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.164737129274414,
+      "hours_of_operation_start": 8.672395889114735,
+      "hours_of_operation_duration": 9.012552027094756,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 820914.7542166648,
+      "gas_hat": 1101.1240049493274,
+      "eui_hat": 53.35545348024548,
+      "electricity_error": 523291.3457833353,
+      "gas_error": 1101.1240049493274,
+      "eui_error": 30.744546519754515
+    }
+  },
+  {
+    "index": 62,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.867604427631182,
+      "number_of_stories": 12,
+      "aspect_ratio": 3.2367092041654244,
+      "hours_of_operation_start": 8.753713731630588,
+      "hours_of_operation_duration": 12.74738923650008,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 838603.0724319451,
+      "gas_hat": 5178.023614476419,
+      "eui_hat": 61.93394509870672,
+      "electricity_error": 505603.02756805497,
+      "gas_error": 5178.023614476419,
+      "eui_error": 22.166054901293272
+    }
+  },
+  {
+    "index": 63,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.6809104164147683,
+      "number_of_stories": 10,
+      "aspect_ratio": 3.542915154652603,
+      "hours_of_operation_start": 8.4949056475607,
+      "hours_of_operation_duration": 15.434751067631241,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 861507.202984722,
+      "gas_hat": 1325.5187440684954,
+      "eui_hat": 56.305250201442824,
+      "electricity_error": 482698.8970152781,
+      "gas_error": 1325.5187440684954,
+      "eui_error": 27.79474979855717
+    }
+  },
+  {
+    "index": 64,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.280776003726019,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.085926079057167,
+      "hours_of_operation_start": 8.514965519299928,
+      "hours_of_operation_duration": 8.1918935926563,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 810339.5222180563,
+      "gas_hat": 1041.0151996277873,
+      "eui_hat": 52.583943727470434,
+      "electricity_error": 533866.5777819438,
+      "gas_error": 1041.0151996277873,
+      "eui_error": 31.51605627252956
+    }
+  },
+  {
+    "index": 65,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.97512803458779,
+      "number_of_stories": 5,
+      "aspect_ratio": 3.809464200320179,
+      "hours_of_operation_start": 9.437312769609141,
+      "hours_of_operation_duration": 12.70009039616066,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 857174.4503472213,
+      "gas_hat": 1138.9689174951504,
+      "eui_hat": 55.69237749879462,
+      "electricity_error": 487031.64965277875,
+      "gas_error": 1138.9689174951504,
+      "eui_error": 28.407622501205374
+    }
+  },
+  {
+    "index": 66,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.704403116974984,
+      "number_of_stories": 9,
+      "aspect_ratio": 2.6692554835557214,
+      "hours_of_operation_start": 9.714711961021695,
+      "hours_of_operation_duration": 8.197321819514848,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 721379.1346166705,
+      "gas_hat": 1120.2443215120873,
+      "eui_hat": 47.16587315731834,
+      "electricity_error": 622826.9653833295,
+      "gas_error": 1120.2443215120873,
+      "eui_error": 36.93412684268166
+    }
+  },
+  {
+    "index": 67,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.972627161249301,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.739208605387777,
+      "hours_of_operation_start": 9.447393301012148,
+      "hours_of_operation_duration": 9.597625783980064,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 810561.0350222193,
+      "gas_hat": 5090.655450111228,
+      "eui_hat": 60.020157560610976,
+      "electricity_error": 533645.0649777808,
+      "gas_error": 5090.655450111228,
+      "eui_error": 24.07984243938902
+    }
+  },
+  {
+    "index": 68,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.349065665203039,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.7517137340703144,
+      "hours_of_operation_start": 9.585821982715704,
+      "hours_of_operation_duration": 8.529330221422645,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 712452.8860263876,
+      "gas_hat": 5471.654727844521,
+      "eui_hat": 54.58311436778751,
+      "electricity_error": 631753.2139736125,
+      "gas_error": 5471.654727844521,
+      "eui_error": 29.516885632212485
+    }
+  },
+  {
+    "index": 69,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.782939911041638,
+      "number_of_stories": 11,
+      "aspect_ratio": 1.2352053690882343,
+      "hours_of_operation_start": 8.36775005859285,
+      "hours_of_operation_duration": 15.345911753997584,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1013275.7247638911,
+      "gas_hat": 1323.823477886416,
+      "eui_hat": 65.79323901545158,
+      "electricity_error": 330930.375236109,
+      "gas_error": 1323.823477886416,
+      "eui_error": 18.30676098454842
+    }
+  },
+  {
+    "index": 70,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.5801960815915232,
+      "number_of_stories": 9,
+      "aspect_ratio": 2.4975812748924775,
+      "hours_of_operation_start": 8.729811905721363,
+      "hours_of_operation_duration": 12.161115459401032,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 805377.4949930545,
+      "gas_hat": 1127.9900631887563,
+      "eui_hat": 52.43304654023419,
+      "electricity_error": 538828.6050069456,
+      "gas_error": 1127.9900631887563,
+      "eui_error": 31.666953459765807
+    }
+  },
+  {
+    "index": 71,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.05850101603725,
+      "number_of_stories": 11,
+      "aspect_ratio": 2.6124033651337983,
+      "hours_of_operation_start": 6.342782164167607,
+      "hours_of_operation_duration": 11.016456242504507,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 875025.6430861133,
+      "gas_hat": 4869.19474746655,
+      "eui_hat": 63.64565558937819,
+      "electricity_error": 469180.4569138868,
+      "gas_error": 4869.19474746655,
+      "eui_error": 20.454344410621808
+    }
+  },
+  {
+    "index": 72,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.493531216112312,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.985685998752076,
+      "hours_of_operation_start": 7.10929622253048,
+      "hours_of_operation_duration": 15.52120295394612,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1010773.0767791641,
+      "gas_hat": 1336.9680524972557,
+      "eui_hat": 65.66082373937378,
+      "electricity_error": 333433.02322083595,
+      "gas_error": 1336.9680524972557,
+      "eui_error": 18.439176260626212
+    }
+  },
+  {
+    "index": 73,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.4902509003304525,
+      "number_of_stories": 11,
+      "aspect_ratio": 4.433315624943319,
+      "hours_of_operation_start": 7.789556179557147,
+      "hours_of_operation_duration": 10.13782954072617,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 848131.5160597232,
+      "gas_hat": 5248.563062636074,
+      "eui_hat": 62.65910995343444,
+      "electricity_error": 496074.5839402769,
+      "gas_error": 5248.563062636074,
+      "eui_error": 21.440890046565556
+    }
+  },
+  {
+    "index": 74,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.321068308821253,
+      "number_of_stories": 9,
+      "aspect_ratio": 1.4526908809092252,
+      "hours_of_operation_start": 9.908811919666778,
+      "hours_of_operation_duration": 11.691591013885102,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 930386.355993054,
+      "gas_hat": 4871.460471920232,
+      "eui_hat": 67.111882218481,
+      "electricity_error": 413819.7440069461,
+      "gas_error": 4871.460471920232,
+      "eui_error": 16.988117781518994
+    }
+  },
+  {
+    "index": 75,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.394691649625067,
+      "number_of_stories": 12,
+      "aspect_ratio": 3.2785051733485595,
+      "hours_of_operation_start": 8.19764813820909,
+      "hours_of_operation_duration": 10.847719379643056,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 739403.1282152773,
+      "gas_hat": 5072.30552678868,
+      "eui_hat": 55.536547400098875,
+      "electricity_error": 604802.9717847228,
+      "gas_error": 5072.30552678868,
+      "eui_error": 28.56345259990112
+    }
+  },
+  {
+    "index": 76,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.701877293335812,
+      "number_of_stories": 8,
+      "aspect_ratio": 4.674315528656434,
+      "hours_of_operation_start": 7.934947669453779,
+      "hours_of_operation_duration": 13.302764761678482,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1007172.9856930563,
+      "gas_hat": 1243.5121453668175,
+      "eui_hat": 65.26439592597855,
+      "electricity_error": 337033.11430694384,
+      "gas_error": 1243.5121453668175,
+      "eui_error": 18.835604074021447
+    }
+  },
+  {
+    "index": 77,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.683949137338043,
+      "number_of_stories": 3,
+      "aspect_ratio": 4.66293660235449,
+      "hours_of_operation_start": 9.54066496820715,
+      "hours_of_operation_duration": 10.809569552432638,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 875176.4898027796,
+      "gas_hat": 2109.1065823101003,
+      "eui_hat": 58.596276419319906,
+      "electricity_error": 469029.61019722046,
+      "gas_error": 2109.1065823101003,
+      "eui_error": 25.503723580680088
+    }
+  },
+  {
+    "index": 78,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.245150489623374,
+      "number_of_stories": 2,
+      "aspect_ratio": 2.6767908897898005,
+      "hours_of_operation_start": 7.088614139268139,
+      "hours_of_operation_duration": 13.341702892993881,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 962390.2102791667,
+      "gas_hat": 1814.4099157257915,
+      "eui_hat": 63.510197746427714,
+      "electricity_error": 381815.8897208334,
+      "gas_error": 1814.4099157257915,
+      "eui_error": 20.58980225357228
+    }
+  },
+  {
+    "index": 79,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.536200991856838,
+      "number_of_stories": 12,
+      "aspect_ratio": 4.224540012461889,
+      "hours_of_operation_start": 7.262941384625305,
+      "hours_of_operation_duration": 9.633797193855457,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 851237.5994986077,
+      "gas_hat": 1138.0208864625736,
+      "eui_hat": 55.31936910072409,
+      "electricity_error": 492968.5005013924,
+      "gas_error": 1138.0208864625736,
+      "eui_error": 28.780630899275906
+    }
+  },
+  {
+    "index": 80,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.296317840257286,
+      "number_of_stories": 10,
+      "aspect_ratio": 4.69672525048896,
+      "hours_of_operation_start": 8.036155469197384,
+      "hours_of_operation_duration": 13.676417028322778,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1022535.6194194446,
+      "gas_hat": 1263.946754954105,
+      "eui_hat": 66.26257714359521,
+      "electricity_error": 321670.4805805555,
+      "gas_error": 1263.946754954105,
+      "eui_error": 17.837422856404785
+    }
+  },
+  {
+    "index": 81,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.4122348244066565,
+      "number_of_stories": 10,
+      "aspect_ratio": 2.1835344470349516,
+      "hours_of_operation_start": 7.087334334778085,
+      "hours_of_operation_duration": 13.419540309280073,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 877909.0643569428,
+      "gas_hat": 5082.318579583008,
+      "eui_hat": 64.21659797551666,
+      "electricity_error": 466297.0356430573,
+      "gas_error": 5082.318579583008,
+      "eui_error": 19.88340202448333
+    }
+  },
+  {
+    "index": 82,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.1217221202832515,
+      "number_of_stories": 10,
+      "aspect_ratio": 4.47734345119256,
+      "hours_of_operation_start": 9.906371851770686,
+      "hours_of_operation_duration": 11.501632103080087,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 932291.4229347279,
+      "gas_hat": 5491.236321412659,
+      "eui_hat": 68.36697153948968,
+      "electricity_error": 411914.67706527223,
+      "gas_error": 5491.236321412659,
+      "eui_error": 15.733028460510312
+    }
+  },
+  {
+    "index": 83,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.597568773499974,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.302398431261405,
+      "hours_of_operation_start": 7.3152073310963655,
+      "hours_of_operation_duration": 10.854273020190611,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 779224.1156833294,
+      "gas_hat": 4602.5364181469495,
+      "eui_hat": 57.16580506829573,
+      "electricity_error": 564981.9843166707,
+      "gas_error": 4602.5364181469495,
+      "eui_error": 26.934194931704262
+    }
+  },
+  {
+    "index": 84,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.676216565690858,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.795864270521705,
+      "hours_of_operation_start": 8.20296749925038,
+      "hours_of_operation_duration": 12.169276804122056,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 938954.7076236117,
+      "gas_hat": 1168.8420803690337,
+      "eui_hat": 60.86139425309139,
+      "electricity_error": 405251.3923763884,
+      "gas_error": 1168.8420803690337,
+      "eui_error": 23.238605746908604
+    }
+  },
+  {
+    "index": 85,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.96532183235239,
+      "number_of_stories": 8,
+      "aspect_ratio": 2.1099253166266805,
+      "hours_of_operation_start": 6.056894083553747,
+      "hours_of_operation_duration": 13.026258618859515,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 933416.1696638885,
+      "gas_hat": 1191.0867265426498,
+      "eui_hat": 60.55580358408088,
+      "electricity_error": 410789.9303361116,
+      "gas_error": 1191.0867265426498,
+      "eui_error": 23.544196415919117
+    }
+  },
+  {
+    "index": 86,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.952590498213139,
+      "number_of_stories": 4,
+      "aspect_ratio": 3.512301372151427,
+      "hours_of_operation_start": 6.627896818505269,
+      "hours_of_operation_duration": 9.479629708662683,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 754033.1722527728,
+      "gas_hat": 4858.071289974548,
+      "eui_hat": 56.05880338570226,
+      "electricity_error": 590172.9277472273,
+      "gas_error": 4858.071289974548,
+      "eui_error": 28.041196614297732
+    }
+  },
+  {
+    "index": 87,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.2577669898480837,
+      "number_of_stories": 2,
+      "aspect_ratio": 2.1415279275330548,
+      "hours_of_operation_start": 8.571478205914802,
+      "hours_of_operation_duration": 11.46133288817882,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 825474.6765527793,
+      "gas_hat": 1739.6330930223828,
+      "eui_hat": 54.810903696853394,
+      "electricity_error": 518731.4234472208,
+      "gas_error": 1739.6330930223828,
+      "eui_error": 29.2890963031466
+    }
+  },
+  {
+    "index": 88,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.449652385909218,
+      "number_of_stories": 2,
+      "aspect_ratio": 2.8457555539041293,
+      "hours_of_operation_start": 8.638912685909062,
+      "hours_of_operation_duration": 13.598963922353796,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 912409.5571430576,
+      "gas_hat": 1145.1839721210772,
+      "eui_hat": 59.15798765000403,
+      "electricity_error": 431796.5428569425,
+      "gas_error": 1145.1839721210772,
+      "eui_error": 24.942012349995963
+    }
+  },
+  {
+    "index": 89,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.096542144014977,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.38872061022599,
+      "hours_of_operation_start": 9.882768418586586,
+      "hours_of_operation_duration": 13.514881390291563,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1076557.3271583337,
+      "gas_hat": 1341.4800506119102,
+      "eui_hat": 69.78302062546601,
+      "electricity_error": 267648.77284166636,
+      "gas_error": 1341.4800506119102,
+      "eui_error": 14.316979374533986
+    }
+  },
+  {
+    "index": 90,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.564782366171923,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.215095719027843,
+      "hours_of_operation_start": 7.7016211914262955,
+      "hours_of_operation_duration": 10.237669778299088,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 844911.9413430544,
+      "gas_hat": 5254.58913031486,
+      "eui_hat": 62.46881335949391,
+      "electricity_error": 499294.1586569457,
+      "gas_error": 5254.58913031486,
+      "eui_error": 21.631186640506087
+    }
+  },
+  {
+    "index": 91,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.403497589212026,
+      "number_of_stories": 8,
+      "aspect_ratio": 1.677178258104287,
+      "hours_of_operation_start": 8.40563017888783,
+      "hours_of_operation_duration": 14.467602994943865,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 931034.3285763904,
+      "gas_hat": 1300.4205992683658,
+      "eui_hat": 60.607243200686966,
+      "electricity_error": 413171.7714236097,
+      "gas_error": 1300.4205992683658,
+      "eui_error": 23.492756799313028
+    }
+  },
+  {
+    "index": 92,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.217160883126095,
+      "number_of_stories": 2,
+      "aspect_ratio": 3.7202978132186524,
+      "hours_of_operation_start": 9.566919734367161,
+      "hours_of_operation_duration": 15.170445682128388,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 950752.4803277809,
+      "gas_hat": 2186.586480904847,
+      "eui_hat": 63.46455481981072,
+      "electricity_error": 393453.61967221915,
+      "gas_error": 2186.586480904847,
+      "eui_error": 20.635445180189272
+    }
+  },
+  {
+    "index": 93,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.259855442719925,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.954818283365054,
+      "hours_of_operation_start": 8.366947599495694,
+      "hours_of_operation_duration": 9.3010496776106,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 726742.0669861105,
+      "gas_hat": 4996.639216803862,
+      "eui_hat": 54.60608237237895,
+      "electricity_error": 617464.0330138896,
+      "gas_error": 4996.639216803862,
+      "eui_error": 29.493917627621045
+    }
+  },
+  {
+    "index": 94,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.037506487632486,
+      "number_of_stories": 4,
+      "aspect_ratio": 4.977999986764376,
+      "hours_of_operation_start": 9.10090836876158,
+      "hours_of_operation_duration": 15.96312829945179,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1106022.8567958383,
+      "gas_hat": 5420.737710342928,
+      "eui_hat": 79.10234161330082,
+      "electricity_error": 238183.24320416176,
+      "gas_error": 5420.737710342928,
+      "eui_error": 4.997658386699172
+    }
+  },
+  {
+    "index": 95,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.0992994598205055,
+      "number_of_stories": 10,
+      "aspect_ratio": 4.6733594509359975,
+      "hours_of_operation_start": 6.03195750172752,
+      "hours_of_operation_duration": 12.912165728616596,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 977984.1511611135,
+      "gas_hat": 1252.5092610261697,
+      "eui_hat": 63.45551411041672,
+      "electricity_error": 366221.9488388866,
+      "gas_error": 1252.5092610261697,
+      "eui_error": 20.644485889583272
+    }
+  },
+  {
+    "index": 96,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.971353176173066,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.4999033899689,
+      "hours_of_operation_start": 7.461809621054718,
+      "hours_of_operation_duration": 8.971258594556106,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 837201.3103541663,
+      "gas_hat": 5207.979797819684,
+      "eui_hat": 61.90118861272698,
+      "electricity_error": 507004.7896458338,
+      "gas_error": 5207.979797819684,
+      "eui_error": 22.19881138727301
+    }
+  },
+  {
+    "index": 97,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.209895268725473,
+      "number_of_stories": 1,
+      "aspect_ratio": 2.3867031916833823,
+      "hours_of_operation_start": 6.056587173003414,
+      "hours_of_operation_duration": 10.331614525442692,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 849389.1914708314,
+      "gas_hat": 1706.933917522648,
+      "eui_hat": 56.246505004595704,
+      "electricity_error": 494816.9085291687,
+      "gas_error": 1706.933917522648,
+      "eui_error": 27.85349499540429
+    }
+  },
+  {
+    "index": 98,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.53886689923937,
+      "number_of_stories": 3,
+      "aspect_ratio": 3.285659428287372,
+      "hours_of_operation_start": 9.308387678927197,
+      "hours_of_operation_duration": 8.303152908360715,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 731599.8718472198,
+      "gas_hat": 1730.9194396502128,
+      "eui_hat": 48.92431647191596,
+      "electricity_error": 612606.2281527803,
+      "gas_error": 1730.9194396502128,
+      "eui_error": 35.175683528084036
+    }
+  },
+  {
+    "index": 99,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.3195815785619804,
+      "number_of_stories": 3,
+      "aspect_ratio": 4.846638870109134,
+      "hours_of_operation_start": 9.212200202302352,
+      "hours_of_operation_duration": 9.386687867036832,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 854505.3852555618,
+      "gas_hat": 2015.7383542842715,
+      "eui_hat": 57.132445196488334,
+      "electricity_error": 489700.7147444383,
+      "gas_error": 2015.7383542842715,
+      "eui_error": 26.96755480351166
+    }
+  },
+  {
+    "index": 100,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.926517452516888,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.748314785796371,
+      "hours_of_operation_start": 6.551139397693735,
+      "hours_of_operation_duration": 10.945022848138034,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 954427.0192527781,
+      "gas_hat": 5148.734167004137,
+      "eui_hat": 69.1235045159621,
+      "electricity_error": 389779.08074722195,
+      "gas_error": 5148.734167004137,
+      "eui_error": 14.976495484037898
+    }
+  },
+  {
+    "index": 101,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.820251784087237,
+      "number_of_stories": 10,
+      "aspect_ratio": 2.7607478076280123,
+      "hours_of_operation_start": 7.564592436784542,
+      "hours_of_operation_duration": 14.531783603796658,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 911940.3197652765,
+      "gas_hat": 5298.03845220671,
+      "eui_hat": 66.74017991678508,
+      "electricity_error": 432265.7802347236,
+      "gas_error": 5298.03845220671,
+      "eui_error": 17.359820083214913
+    }
+  },
+  {
+    "index": 102,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.5005592121308744,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.506065504681775,
+      "hours_of_operation_start": 8.651731183058097,
+      "hours_of_operation_duration": 13.904298528491328,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 967225.6494791668,
+      "gas_hat": 1261.720825972866,
+      "eui_hat": 62.79959674890403,
+      "electricity_error": 376980.45052083326,
+      "gas_error": 1261.720825972866,
+      "eui_error": 21.300403251095965
+    }
+  },
+  {
+    "index": 103,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.365480609463926,
+      "number_of_stories": 8,
+      "aspect_ratio": 2.4292780753075154,
+      "hours_of_operation_start": 9.774061027314588,
+      "hours_of_operation_duration": 15.502770182179109,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1031988.4194208351,
+      "gas_hat": 1403.7360954043356,
+      "eui_hat": 67.1099357882024,
+      "electricity_error": 312217.680579165,
+      "gas_error": 1403.7360954043356,
+      "eui_error": 16.990064211797588
+    }
+  },
+  {
+    "index": 104,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.309621574724964,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.359629917378026,
+      "hours_of_operation_start": 6.97055700724502,
+      "hours_of_operation_duration": 10.80516380762425,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 785968.0645041675,
+      "gas_hat": 1079.6313766890153,
+      "eui_hat": 51.13061168909679,
+      "electricity_error": 558238.0354958326,
+      "gas_error": 1079.6313766890153,
+      "eui_error": 32.969388310903206
+    }
+  },
+  {
+    "index": 105,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.9108221411590771,
+      "number_of_stories": 2,
+      "aspect_ratio": 4.475926789392953,
+      "hours_of_operation_start": 7.009724839149805,
+      "hours_of_operation_duration": 12.197670756718214,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 957043.7749152809,
+      "gas_hat": 2062.096050003904,
+      "eui_hat": 63.629819739943706,
+      "electricity_error": 387162.3250847192,
+      "gas_error": 2062.096050003904,
+      "eui_error": 20.47018026005629
+    }
+  },
+  {
+    "index": 106,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.407138067156673,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.5270672324798,
+      "hours_of_operation_start": 9.918076088821854,
+      "hours_of_operation_duration": 11.555015898607675,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 952605.5363750014,
+      "gas_hat": 5496.55957574134,
+      "eui_hat": 69.64710497957549,
+      "electricity_error": 391600.5636249987,
+      "gas_error": 5496.55957574134,
+      "eui_error": 14.452895020424506
+    }
+  },
+  {
+    "index": 107,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.218865015026658,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.347459096905187,
+      "hours_of_operation_start": 7.7041104814942045,
+      "hours_of_operation_duration": 12.008680203839079,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 818013.024204169,
+      "gas_hat": 1121.3300135989143,
+      "eui_hat": 53.21102345939363,
+      "electricity_error": 526193.075795831,
+      "gas_error": 1121.3300135989143,
+      "eui_error": 30.888976540606365
+    }
+  },
+  {
+    "index": 108,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.5497977947722,
+      "number_of_stories": 1,
+      "aspect_ratio": 2.4307499602997615,
+      "hours_of_operation_start": 7.665757039325456,
+      "hours_of_operation_duration": 11.639093081310556,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 865773.9821736125,
+      "gas_hat": 1739.7433563330076,
+      "eui_hat": 57.33128964093963,
+      "electricity_error": 478432.11782638764,
+      "gas_error": 1739.7433563330076,
+      "eui_error": 26.768710359060364
+    }
+  },
+  {
+    "index": 109,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.087309538428485,
+      "number_of_stories": 1,
+      "aspect_ratio": 3.714181735145804,
+      "hours_of_operation_start": 8.94498064532476,
+      "hours_of_operation_duration": 9.65115970212928,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 736208.7888458297,
+      "gas_hat": 994.8594304113552,
+      "eui_hat": 47.86345913825341,
+      "electricity_error": 607997.3111541704,
+      "gas_error": 994.8594304113552,
+      "eui_error": 36.23654086174658
+    }
+  },
+  {
+    "index": 110,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.77934587024871,
+      "number_of_stories": 1,
+      "aspect_ratio": 3.918588012029733,
+      "hours_of_operation_start": 6.6873526077636924,
+      "hours_of_operation_duration": 8.750665128095775,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 937672.9070291701,
+      "gas_hat": 1034.778584441289,
+      "eui_hat": 60.53551717792627,
+      "electricity_error": 406533.19297083,
+      "gas_error": 1034.778584441289,
+      "eui_error": 23.56448282207372
+    }
+  },
+  {
+    "index": 111,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.954808611671485,
+      "number_of_stories": 6,
+      "aspect_ratio": 1.407627525349608,
+      "hours_of_operation_start": 6.14517989301045,
+      "hours_of_operation_duration": 14.351080959790817,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1010721.3700277765,
+      "gas_hat": 4903.514323368546,
+      "eui_hat": 72.19451515527177,
+      "electricity_error": 333484.72997222363,
+      "gas_error": 4903.514323368546,
+      "eui_error": 11.905484844728221
+    }
+  },
+  {
+    "index": 112,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.613514025350753,
+      "number_of_stories": 10,
+      "aspect_ratio": 2.074313029051203,
+      "hours_of_operation_start": 9.65002036190181,
+      "hours_of_operation_duration": 8.567989073156156,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 721999.9050152826,
+      "gas_hat": 1138.5140754282259,
+      "eui_hat": 47.23817968209249,
+      "electricity_error": 622206.1949847175,
+      "gas_error": 1138.5140754282259,
+      "eui_error": 36.8618203179075
+    }
+  },
+  {
+    "index": 113,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.644582216094834,
+      "number_of_stories": 4,
+      "aspect_ratio": 1.1149797963945929,
+      "hours_of_operation_start": 9.41533415222642,
+      "hours_of_operation_duration": 8.214179061458118,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 782647.6498944463,
+      "gas_hat": 967.5922966983204,
+      "eui_hat": 50.71761383998685,
+      "electricity_error": 561558.4501055538,
+      "gas_error": 967.5922966983204,
+      "eui_error": 33.38238616001314
+    }
+  },
+  {
+    "index": 114,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.469870287960971,
+      "number_of_stories": 10,
+      "aspect_ratio": 2.7809009273752485,
+      "hours_of_operation_start": 7.311705646003066,
+      "hours_of_operation_duration": 9.761009099156777,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 739642.7565499982,
+      "gas_hat": 5185.56461103772,
+      "eui_hat": 55.7591192531592,
+      "electricity_error": 604563.3434500019,
+      "gas_error": 5185.56461103772,
+      "eui_error": 28.340880746840796
+    }
+  },
+  {
+    "index": 115,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.244547422205406,
+      "number_of_stories": 4,
+      "aspect_ratio": 3.1716122937404108,
+      "hours_of_operation_start": 6.909219317292335,
+      "hours_of_operation_duration": 8.13705436749852,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 726800.2922361088,
+      "gas_hat": 4890.189793272794,
+      "eui_hat": 54.41461833645313,
+      "electricity_error": 617405.8077638913,
+      "gas_error": 4890.189793272794,
+      "eui_error": 29.685381663546863
+    }
+  },
+  {
+    "index": 116,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.1671767065662042,
+      "number_of_stories": 6,
+      "aspect_ratio": 1.2201599001260752,
+      "hours_of_operation_start": 9.419454968511591,
+      "hours_of_operation_duration": 13.661194545860416,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 956413.7425333344,
+      "gas_hat": 1280.543967832823,
+      "eui_hat": 62.15795612732807,
+      "electricity_error": 387792.3574666657,
+      "gas_error": 1280.543967832823,
+      "eui_error": 21.942043872671924
+    }
+  },
+  {
+    "index": 117,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.264677205137174,
+      "number_of_stories": 12,
+      "aspect_ratio": 2.6734563147494916,
+      "hours_of_operation_start": 8.142292183543827,
+      "hours_of_operation_duration": 11.94089569696969,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 818076.1615194438,
+      "gas_hat": 5151.974060433959,
+      "eui_hat": 60.60251593012717,
+      "electricity_error": 526129.9384805562,
+      "gas_error": 5151.974060433959,
+      "eui_error": 23.497484069872826
+    }
+  },
+  {
+    "index": 118,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.446169913499814,
+      "number_of_stories": 7,
+      "aspect_ratio": 3.036598172529148,
+      "hours_of_operation_start": 7.59085544521931,
+      "hours_of_operation_duration": 15.369646826258595,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 863582.5491888915,
+      "gas_hat": 1300.7774556592303,
+      "eui_hat": 56.389688478710056,
+      "electricity_error": 480623.55081110855,
+      "gas_error": 1300.7774556592303,
+      "eui_error": 27.71031152128994
+    }
+  },
+  {
+    "index": 119,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.030374764745979,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.876761486140901,
+      "hours_of_operation_start": 7.796596837201767,
+      "hours_of_operation_duration": 11.191066128883872,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 838438.2431472256,
+      "gas_hat": 1116.2824190831616,
+      "eui_hat": 54.47909691214534,
+      "electricity_error": 505767.8568527745,
+      "gas_error": 1116.2824190831616,
+      "eui_error": 29.620903087854657
+    }
+  },
+  {
+    "index": 120,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.818481740657106,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.023786047283738,
+      "hours_of_operation_start": 7.167815371422189,
+      "hours_of_operation_duration": 12.63052180024469,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 976066.577531947,
+      "gas_hat": 5230.6093580852785,
+      "eui_hat": 70.62683464713217,
+      "electricity_error": 368139.52246805304,
+      "gas_error": 5230.6093580852785,
+      "eui_error": 13.473165352867824
+    }
+  },
+  {
+    "index": 121,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.029858785499744,
+      "number_of_stories": 1,
+      "aspect_ratio": 4.664535838390481,
+      "hours_of_operation_start": 7.888186503887369,
+      "hours_of_operation_duration": 8.194397562544436,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 886957.2212708332,
+      "gas_hat": 1056.9820047492565,
+      "eui_hat": 57.40462315709326,
+      "electricity_error": 457248.8787291669,
+      "gas_error": 1056.9820047492565,
+      "eui_error": 26.695376842906732
+    }
+  },
+  {
+    "index": 122,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.020224847144964,
+      "number_of_stories": 12,
+      "aspect_ratio": 1.3394218851044584,
+      "hours_of_operation_start": 6.998305195660075,
+      "hours_of_operation_duration": 11.294857183097047,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 913263.9885027749,
+      "gas_hat": 4833.021230199055,
+      "eui_hat": 65.970653441924,
+      "electricity_error": 430942.11149722524,
+      "gas_error": 4833.021230199055,
+      "eui_error": 18.129346558075994
+    }
+  },
+  {
+    "index": 123,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.8329182447464747,
+      "number_of_stories": 1,
+      "aspect_ratio": 4.947365299409073,
+      "hours_of_operation_start": 9.64440531545772,
+      "hours_of_operation_duration": 13.995363449518699,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1019872.4737013902,
+      "gas_hat": 1285.6425997132035,
+      "eui_hat": 66.13579802493518,
+      "electricity_error": 324333.6262986099,
+      "gas_error": 1285.6425997132035,
+      "eui_error": 17.96420197506481
+    }
+  },
+  {
+    "index": 124,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.1609292816398304,
+      "number_of_stories": 6,
+      "aspect_ratio": 1.6605150856775626,
+      "hours_of_operation_start": 7.434299955795467,
+      "hours_of_operation_duration": 15.473184990757822,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 896826.7868708355,
+      "gas_hat": 5138.978871591448,
+      "eui_hat": 65.50349860634962,
+      "electricity_error": 447379.3131291646,
+      "gas_error": 5138.978871591448,
+      "eui_error": 18.59650139365037
+    }
+  },
+  {
+    "index": 125,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.795169529221667,
+      "number_of_stories": 2,
+      "aspect_ratio": 2.7483182049031383,
+      "hours_of_operation_start": 9.785350504113952,
+      "hours_of_operation_duration": 9.62168992527631,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 772617.2276402817,
+      "gas_hat": 1067.7746620412452,
+      "eui_hat": 50.27396346980875,
+      "electricity_error": 571588.8723597184,
+      "gas_error": 1067.7746620412452,
+      "eui_error": 33.826036530191246
+    }
+  },
+  {
+    "index": 126,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.437151702079011,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.867138788862209,
+      "hours_of_operation_start": 8.303545025057979,
+      "hours_of_operation_duration": 8.634773858616239,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 810689.2851819494,
+      "gas_hat": 1063.2794566095781,
+      "eui_hat": 52.646623656557345,
+      "electricity_error": 533516.8148180507,
+      "gas_error": 1063.2794566095781,
+      "eui_error": 31.45337634344265
+    }
+  },
+  {
+    "index": 127,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.898618537359915,
+      "number_of_stories": 5,
+      "aspect_ratio": 3.443890635264742,
+      "hours_of_operation_start": 7.971445545753532,
+      "hours_of_operation_duration": 10.051642874863036,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 729398.4095277812,
+      "gas_hat": 993.2868283031345,
+      "eui_hat": 47.43467844829735,
+      "electricity_error": 614807.6904722189,
+      "gas_error": 993.2868283031345,
+      "eui_error": 36.66532155170265
+    }
+  },
+  {
+    "index": 128,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.227090062488343,
+      "number_of_stories": 4,
+      "aspect_ratio": 3.080187814566097,
+      "hours_of_operation_start": 6.468651174603799,
+      "hours_of_operation_duration": 13.743853687648063,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 870648.5243861118,
+      "gas_hat": 1182.8262568835216,
+      "eui_hat": 56.61538473045758,
+      "electricity_error": 473557.57561388833,
+      "gas_error": 1182.8262568835216,
+      "eui_error": 27.484615269542417
+    }
+  },
+  {
+    "index": 129,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.111816682711277,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.006034449412992,
+      "hours_of_operation_start": 6.265334111926634,
+      "hours_of_operation_duration": 11.643162746110503,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 942705.0461277775,
+      "gas_hat": 5232.278645278951,
+      "eui_hat": 68.54357554831144,
+      "electricity_error": 401501.05387222255,
+      "gas_error": 5232.278645278951,
+      "eui_error": 15.556424451688557
+    }
+  },
+  {
+    "index": 130,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.42881700130331,
+      "number_of_stories": 3,
+      "aspect_ratio": 1.6786609452881889,
+      "hours_of_operation_start": 9.769587792892066,
+      "hours_of_operation_duration": 15.544686865694683,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1048951.388972225,
+      "gas_hat": 1340.2602158829582,
+      "eui_hat": 68.0544017734884,
+      "electricity_error": 295254.7110277752,
+      "gas_error": 1340.2602158829582,
+      "eui_error": 16.0455982265116
+    }
+  },
+  {
+    "index": 131,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.182705847146599,
+      "number_of_stories": 5,
+      "aspect_ratio": 2.518501414528423,
+      "hours_of_operation_start": 9.73169373201301,
+      "hours_of_operation_duration": 12.55529364020737,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 825089.2586722221,
+      "gas_hat": 4833.518359740282,
+      "eui_hat": 60.457411777193,
+      "electricity_error": 519116.84132777795,
+      "gas_error": 4833.518359740282,
+      "eui_error": 23.642588222806992
+    }
+  },
+  {
+    "index": 132,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.6207369823759126,
+      "number_of_stories": 9,
+      "aspect_ratio": 2.0887311674049016,
+      "hours_of_operation_start": 7.349590635052186,
+      "hours_of_operation_duration": 8.793390866341175,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 719477.1983291637,
+      "gas_hat": 1038.7294399329955,
+      "eui_hat": 46.89752831181096,
+      "electricity_error": 624728.9016708364,
+      "gas_error": 1038.7294399329955,
+      "eui_error": 37.202471688189036
+    }
+  },
+  {
+    "index": 133,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.696269627455707,
+      "number_of_stories": 3,
+      "aspect_ratio": 1.8270917303245535,
+      "hours_of_operation_start": 9.506828725405601,
+      "hours_of_operation_duration": 14.627925611059347,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 930933.0787666644,
+      "gas_hat": 1324.4607849880872,
+      "eui_hat": 60.644973300048896,
+      "electricity_error": 413273.0212333357,
+      "gas_error": 1324.4607849880872,
+      "eui_error": 23.455026699951098
+    }
+  },
+  {
+    "index": 134,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.197336316593912,
+      "number_of_stories": 12,
+      "aspect_ratio": 2.0884886504569087,
+      "hours_of_operation_start": 8.257313410630184,
+      "hours_of_operation_duration": 14.595700839405648,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 919319.8936402795,
+      "gas_hat": 5139.039476480522,
+      "eui_hat": 66.91025338615626,
+      "electricity_error": 424886.20635972056,
+      "gas_error": 5139.039476480522,
+      "eui_error": 17.189746613843738
+    }
+  },
+  {
+    "index": 135,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.719205646355006,
+      "number_of_stories": 6,
+      "aspect_ratio": 1.4100686763437413,
+      "hours_of_operation_start": 9.954557288715051,
+      "hours_of_operation_duration": 12.02594931027032,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 985115.7670430574,
+      "gas_hat": 1226.2796477577524,
+      "eui_hat": 63.85342672153018,
+      "electricity_error": 359090.33295694273,
+      "gas_error": 1226.2796477577524,
+      "eui_error": 20.246573278469818
+    }
+  },
+  {
+    "index": 136,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.602022913636869,
+      "number_of_stories": 3,
+      "aspect_ratio": 2.291559420228343,
+      "hours_of_operation_start": 7.582819602967906,
+      "hours_of_operation_duration": 15.371488875100727,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 908793.129104166,
+      "gas_hat": 1886.6089242312737,
+      "eui_hat": 60.290745031644825,
+      "electricity_error": 435412.97089583415,
+      "gas_error": 1886.6089242312737,
+      "eui_error": 23.80925496835517
+    }
+  },
+  {
+    "index": 137,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.333178019357526,
+      "number_of_stories": 7,
+      "aspect_ratio": 4.523986210984589,
+      "hours_of_operation_start": 7.295420648823475,
+      "hours_of_operation_duration": 11.387196083093874,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 912679.9468555537,
+      "gas_hat": 5297.505826431371,
+      "eui_hat": 66.78545750209469,
+      "electricity_error": 431526.15314444643,
+      "gas_error": 5297.505826431371,
+      "eui_error": 17.314542497905308
+    }
+  },
+  {
+    "index": 138,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.353338710671547,
+      "number_of_stories": 7,
+      "aspect_ratio": 4.824193252054434,
+      "hours_of_operation_start": 6.036943604296212,
+      "hours_of_operation_duration": 12.040186570484675,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 987064.7742749992,
+      "gas_hat": 1231.147323057954,
+      "eui_hat": 63.98423281033894,
+      "electricity_error": 357141.32572500093,
+      "gas_error": 1231.147323057954,
+      "eui_error": 20.115767189661057
+    }
+  },
+  {
+    "index": 139,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.906153139663137,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.50768396241409,
+      "hours_of_operation_start": 6.672241791575663,
+      "hours_of_operation_duration": 10.48627358308018,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 791518.8359944456,
+      "gas_hat": 1082.7972956178885,
+      "eui_hat": 51.48354101860039,
+      "electricity_error": 552687.2640055545,
+      "gas_error": 1082.7972956178885,
+      "eui_error": 32.6164589813996
+    }
+  },
+  {
+    "index": 140,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.829350041933023,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.276853839617678,
+      "hours_of_operation_start": 7.732408729257221,
+      "hours_of_operation_duration": 8.295826887990959,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 712704.1227416678,
+      "gas_hat": 5268.468119179277,
+      "eui_hat": 54.22641639868948,
+      "electricity_error": 631501.9772583323,
+      "gas_error": 5268.468119179277,
+      "eui_error": 29.873583601310514
+    }
+  },
+  {
+    "index": 141,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.604102833462921,
+      "number_of_stories": 6,
+      "aspect_ratio": 2.442408940690429,
+      "hours_of_operation_start": 6.8766529887453345,
+      "hours_of_operation_duration": 10.489378682491285,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 789251.7231333299,
+      "gas_hat": 4973.765700085451,
+      "eui_hat": 58.47330369023949,
+      "electricity_error": 554954.3768666702,
+      "gas_error": 4973.765700085451,
+      "eui_error": 25.626696309760504
+    }
+  },
+  {
+    "index": 142,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.618775394169031,
+      "number_of_stories": 11,
+      "aspect_ratio": 4.308521869426159,
+      "hours_of_operation_start": 7.946360220337727,
+      "hours_of_operation_duration": 13.621122278050372,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1000153.072526389,
+      "gas_hat": 5356.0219578449305,
+      "eui_hat": 72.36298532339684,
+      "electricity_error": 344053.02747361106,
+      "gas_error": 5356.0219578449305,
+      "eui_error": 11.737014676603152
+    }
+  },
+  {
+    "index": 143,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.555742624108243,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.959635471218261,
+      "hours_of_operation_start": 6.77714203792188,
+      "hours_of_operation_duration": 10.601856479117068,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 787209.6404013894,
+      "gas_hat": 5061.988050610205,
+      "eui_hat": 58.507296519621725,
+      "electricity_error": 556996.4595986106,
+      "gas_error": 5061.988050610205,
+      "eui_error": 25.59270348037827
+    }
+  },
+  {
+    "index": 144,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.674494637873217,
+      "number_of_stories": 9,
+      "aspect_ratio": 2.3402684597283665,
+      "hours_of_operation_start": 9.525922239019614,
+      "hours_of_operation_duration": 13.998055165788381,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 951448.8828736066,
+      "gas_hat": 5122.764859115805,
+      "eui_hat": 68.88966411796785,
+      "electricity_error": 392757.21712639346,
+      "gas_error": 5122.764859115805,
+      "eui_error": 15.21033588203214
+    }
+  },
+  {
+    "index": 145,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.218534138443545,
+      "number_of_stories": 7,
+      "aspect_ratio": 4.711767685078981,
+      "hours_of_operation_start": 6.033280841543625,
+      "hours_of_operation_duration": 8.235862195509192,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 875979.4695333325,
+      "gas_hat": 5338.741532348995,
+      "eui_hat": 64.56591098391917,
+      "electricity_error": 468226.6304666676,
+      "gas_error": 5338.741532348995,
+      "eui_error": 19.534089016080827
+    }
+  },
+  {
+    "index": 146,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.426801892145185,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.550085825470031,
+      "hours_of_operation_start": 9.508740741128413,
+      "hours_of_operation_duration": 9.003289808906931,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 720112.4824541655,
+      "gas_hat": 5357.437163129517,
+      "eui_hat": 54.8527768776863,
+      "electricity_error": 624093.6175458346,
+      "gas_error": 5357.437163129517,
+      "eui_error": 29.24722312231369
+    }
+  },
+  {
+    "index": 147,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.538352543913746,
+      "number_of_stories": 12,
+      "aspect_ratio": 2.7844528914391575,
+      "hours_of_operation_start": 6.171788877596688,
+      "hours_of_operation_duration": 14.140348049491987,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 938296.82055139,
+      "gas_hat": 5040.729175817339,
+      "eui_hat": 67.91681945203585,
+      "electricity_error": 405909.27944861015,
+      "gas_error": 5040.729175817339,
+      "eui_error": 16.18318054796414
+    }
+  },
+  {
+    "index": 148,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.44627023650474,
+      "number_of_stories": 5,
+      "aspect_ratio": 3.593711852473396,
+      "hours_of_operation_start": 8.954870630323548,
+      "hours_of_operation_duration": 8.687482418501565,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 704709.422968055,
+      "gas_hat": 4925.862575731126,
+      "eui_hat": 53.09851189039802,
+      "electricity_error": 639496.6770319451,
+      "gas_error": 4925.862575731126,
+      "eui_error": 31.001488109601972
+    }
+  },
+  {
+    "index": 149,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.13937161389297,
+      "number_of_stories": 1,
+      "aspect_ratio": 4.742555491759827,
+      "hours_of_operation_start": 8.454520418219587,
+      "hours_of_operation_duration": 14.284577490321618,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1002592.0488763874,
+      "gas_hat": 1321.1686977051645,
+      "eui_hat": 65.12025184268238,
+      "electricity_error": 341614.0511236127,
+      "gas_error": 1321.1686977051645,
+      "eui_error": 18.979748157317616
+    }
+  },
+  {
+    "index": 150,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.87823589414502,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.1672180761972637,
+      "hours_of_operation_start": 8.360023705291937,
+      "hours_of_operation_duration": 10.894645051062806,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 837719.4981013896,
+      "gas_hat": 4858.533140616789,
+      "eui_hat": 61.293112932251105,
+      "electricity_error": 506486.6018986105,
+      "gas_error": 4858.533140616789,
+      "eui_error": 22.80688706774889
+    }
+  },
+  {
+    "index": 151,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.7244542144547417,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.697344214230564,
+      "hours_of_operation_start": 8.870585668095952,
+      "hours_of_operation_duration": 10.565661612639285,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 827864.4771861129,
+      "gas_hat": 5247.793313443078,
+      "eui_hat": 61.390266266556544,
+      "electricity_error": 516341.6228138872,
+      "gas_error": 5247.793313443078,
+      "eui_error": 22.70973373344345
+    }
+  },
+  {
+    "index": 152,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.7880288877139,
+      "number_of_stories": 9,
+      "aspect_ratio": 3.1197932802162613,
+      "hours_of_operation_start": 7.349630865904465,
+      "hours_of_operation_duration": 15.922261013605087,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1002913.4212638844,
+      "gas_hat": 5472.128044798911,
+      "eui_hat": 72.74841271686702,
+      "electricity_error": 341292.6787361157,
+      "gas_error": 5472.128044798911,
+      "eui_error": 11.351587283132972
+    }
+  },
+  {
+    "index": 153,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.350222065518745,
+      "number_of_stories": 7,
+      "aspect_ratio": 3.2999702245476623,
+      "hours_of_operation_start": 8.231476450272137,
+      "hours_of_operation_duration": 9.195354640785673,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 728890.4860138898,
+      "gas_hat": 1032.6827283126022,
+      "eui_hat": 47.475121171382916,
+      "electricity_error": 615315.6139861103,
+      "gas_error": 1032.6827283126022,
+      "eui_error": 36.62487882861708
+    }
+  },
+  {
+    "index": 154,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.12120596352461,
+      "number_of_stories": 3,
+      "aspect_ratio": 2.1298658579461263,
+      "hours_of_operation_start": 9.757093115966974,
+      "hours_of_operation_duration": 11.164014588945705,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 897307.2477972226,
+      "gas_hat": 1124.1446947048203,
+      "eui_hat": 58.17497798670464,
+      "electricity_error": 446898.8522027775,
+      "gas_error": 1124.1446947048203,
+      "eui_error": 25.925022013295354
+    }
+  },
+  {
+    "index": 155,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.880397213998759,
+      "number_of_stories": 7,
+      "aspect_ratio": 4.7764475920417055,
+      "hours_of_operation_start": 6.3570202365010555,
+      "hours_of_operation_duration": 12.77794072730184,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 992135.7182722194,
+      "gas_hat": 5313.912604943109,
+      "eui_hat": 71.78442689221268,
+      "electricity_error": 352070.3817277807,
+      "gas_error": 5313.912604943109,
+      "eui_error": 12.315573107787316
+    }
+  },
+  {
+    "index": 156,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.108363128447333,
+      "number_of_stories": 8,
+      "aspect_ratio": 4.9620307920352165,
+      "hours_of_operation_start": 9.419010020654147,
+      "hours_of_operation_duration": 11.355774681160284,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 893201.9048027771,
+      "gas_hat": 1243.070748554913,
+      "eui_hat": 58.13621653303825,
+      "electricity_error": 451004.195197223,
+      "gas_error": 1243.070748554913,
+      "eui_error": 25.963783466961743
+    }
+  },
+  {
+    "index": 157,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.7485290267621263,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.7945016941499463,
+      "hours_of_operation_start": 7.011852120210888,
+      "hours_of_operation_duration": 9.476524093205256,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 729086.9607777785,
+      "gas_hat": 4847.870612471306,
+      "eui_hat": 54.48005446152696,
+      "electricity_error": 615119.1392222216,
+      "gas_error": 4847.870612471306,
+      "eui_error": 29.619945538473033
+    }
+  },
+  {
+    "index": 158,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.835806940280975,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.5458518988865,
+      "hours_of_operation_start": 8.672407773904284,
+      "hours_of_operation_duration": 8.71038710326549,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 817782.3858138865,
+      "gas_hat": 5376.643423227827,
+      "eui_hat": 60.99592820234171,
+      "electricity_error": 526423.7141861136,
+      "gas_error": 5376.643423227827,
+      "eui_error": 23.104071797658285
+    }
+  },
+  {
+    "index": 159,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.145857523368477,
+      "number_of_stories": 10,
+      "aspect_ratio": 2.0866193837759406,
+      "hours_of_operation_start": 8.56918415215958,
+      "hours_of_operation_duration": 10.94931059000774,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 827716.4032513893,
+      "gas_hat": 4710.811380608629,
+      "eui_hat": 60.39680179535563,
+      "electricity_error": 516489.6967486108,
+      "gas_error": 4710.811380608629,
+      "eui_error": 23.703198204644366
+    }
+  },
+  {
+    "index": 160,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.71792278171828,
+      "number_of_stories": 2,
+      "aspect_ratio": 3.097110273110594,
+      "hours_of_operation_start": 9.463848238276334,
+      "hours_of_operation_duration": 14.056497861275993,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 897063.1363388931,
+      "gas_hat": 1914.9571724905654,
+      "eui_hat": 59.60914843176979,
+      "electricity_error": 447142.963661107,
+      "gas_error": 1914.9571724905654,
+      "eui_error": 24.490851568230205
+    }
+  },
+  {
+    "index": 161,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.8043498901075576,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.137164380925407,
+      "hours_of_operation_start": 6.584704187751353,
+      "hours_of_operation_duration": 11.092894249597393,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 864368.23372222,
+      "gas_hat": 1136.128008069692,
+      "eui_hat": 56.13704571604075,
+      "electricity_error": 479837.86627778015,
+      "gas_error": 1136.128008069692,
+      "eui_error": 27.96295428395924
+    }
+  },
+  {
+    "index": 162,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.474994086442246,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.045167767579349,
+      "hours_of_operation_start": 6.379785600974787,
+      "hours_of_operation_duration": 10.766548035826792,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 894519.1330180536,
+      "gas_hat": 4967.593665967475,
+      "eui_hat": 65.0450632048084,
+      "electricity_error": 449686.9669819465,
+      "gas_error": 4967.593665967475,
+      "eui_error": 19.054936795191594
+    }
+  },
+  {
+    "index": 163,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.3988285610745,
+      "number_of_stories": 11,
+      "aspect_ratio": 3.687799515871011,
+      "hours_of_operation_start": 9.050870727707618,
+      "hours_of_operation_duration": 11.966754162071297,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 834725.0177291704,
+      "gas_hat": 5226.549529755416,
+      "eui_hat": 61.780364982908196,
+      "electricity_error": 509481.0822708297,
+      "gas_error": 5226.549529755416,
+      "eui_error": 22.319635017091798
+    }
+  },
+  {
+    "index": 164,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.7557561833996864,
+      "number_of_stories": 6,
+      "aspect_ratio": 1.1111632337630741,
+      "hours_of_operation_start": 9.13938430829545,
+      "hours_of_operation_duration": 15.95383570837862,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1067924.8660472212,
+      "gas_hat": 1417.742720535446,
+      "eui_hat": 69.38295298765878,
+      "electricity_error": 276281.23395277886,
+      "gas_error": 1417.742720535446,
+      "eui_error": 14.717047012341212
+    }
+  },
+  {
+    "index": 165,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.711729518704432,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.865322086205904,
+      "hours_of_operation_start": 6.961554642357584,
+      "hours_of_operation_duration": 15.274037090637,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1050225.6163777797,
+      "gas_hat": 5575.3140810924715,
+      "eui_hat": 75.8962831963019,
+      "electricity_error": 293980.48362222034,
+      "gas_error": 5575.3140810924715,
+      "eui_error": 8.2037168036981
+    }
+  },
+  {
+    "index": 166,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.203713611080698,
+      "number_of_stories": 3,
+      "aspect_ratio": 4.6733991054553385,
+      "hours_of_operation_start": 7.113057343513358,
+      "hours_of_operation_duration": 14.368102065425365,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1067635.0832611127,
+      "gas_hat": 2137.687162924626,
+      "eui_hat": 70.68437720636692,
+      "electricity_error": 276571.0167388874,
+      "gas_error": 2137.687162924626,
+      "eui_error": 13.415622793633077
+    }
+  },
+  {
+    "index": 167,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.653186817667489,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.342242615981198,
+      "hours_of_operation_start": 8.210856001670026,
+      "hours_of_operation_duration": 8.850766032510268,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 825788.6795180539,
+      "gas_hat": 1095.303617049715,
+      "eui_hat": 53.6495846081483,
+      "electricity_error": 518417.4204819462,
+      "gas_error": 1095.303617049715,
+      "eui_error": 30.450415391851692
+    }
+  },
+  {
+    "index": 168,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.407697976516787,
+      "number_of_stories": 5,
+      "aspect_ratio": 1.8289588755448056,
+      "hours_of_operation_start": 6.3753421992245976,
+      "hours_of_operation_duration": 9.17595040384745,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 751311.6529847215,
+      "gas_hat": 1029.9853549588133,
+      "eui_hat": 48.872322131227115,
+      "electricity_error": 592894.4470152786,
+      "gas_error": 1029.9853549588133,
+      "eui_error": 35.22767786877288
+    }
+  },
+  {
+    "index": 169,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.026054046597276,
+      "number_of_stories": 10,
+      "aspect_ratio": 3.941826198552585,
+      "hours_of_operation_start": 7.796998038039683,
+      "hours_of_operation_duration": 8.603665412147024,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 834382.4013347236,
+      "gas_hat": 1041.6682844768877,
+      "eui_hat": 54.0887020124957,
+      "electricity_error": 509823.6986652765,
+      "gas_error": 1041.6682844768877,
+      "eui_error": 30.011297987504292
+    }
+  },
+  {
+    "index": 170,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.691935642554629,
+      "number_of_stories": 12,
+      "aspect_ratio": 4.916343492061562,
+      "hours_of_operation_start": 6.7982321345895045,
+      "hours_of_operation_duration": 11.848845448699468,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 942863.6177041696,
+      "gas_hat": 5278.571113828172,
+      "eui_hat": 68.63833898441062,
+      "electricity_error": 401342.4822958305,
+      "gas_error": 5278.571113828172,
+      "eui_error": 15.461661015589371
+    }
+  },
+  {
+    "index": 171,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.95727971910472,
+      "number_of_stories": 12,
+      "aspect_ratio": 2.5702458641291783,
+      "hours_of_operation_start": 9.113202590828356,
+      "hours_of_operation_duration": 8.17282100007808,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 697892.7033208341,
+      "gas_hat": 5270.9766965778,
+      "eui_hat": 53.30475757676807,
+      "electricity_error": 646313.396679166,
+      "gas_error": 5270.9766965778,
+      "eui_error": 30.795242423231926
+    }
+  },
+  {
+    "index": 172,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.225364912044576,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.060821579930542,
+      "hours_of_operation_start": 7.269873905767305,
+      "hours_of_operation_duration": 13.370104900919845,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 938670.2845986059,
+      "gas_hat": 4856.649477179616,
+      "eui_hat": 67.60278516804262,
+      "electricity_error": 405535.81540139415,
+      "gas_error": 4856.649477179616,
+      "eui_error": 16.49721483195738
+    }
+  },
+  {
+    "index": 173,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.900495857450196,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.529853284236598,
+      "hours_of_operation_start": 6.021947670708883,
+      "hours_of_operation_duration": 9.52574661507623,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 783264.6605305559,
+      "gas_hat": 1038.9640829035504,
+      "eui_hat": 50.88701301357426,
+      "electricity_error": 560941.4394694442,
+      "gas_error": 1038.9640829035504,
+      "eui_error": 33.21298698642573
+    }
+  },
+  {
+    "index": 174,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.562071426107838,
+      "number_of_stories": 9,
+      "aspect_ratio": 1.614008577925944,
+      "hours_of_operation_start": 6.610389603277353,
+      "hours_of_operation_duration": 11.824873788724954,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 883926.0852513904,
+      "gas_hat": 1136.5516073462868,
+      "eui_hat": 57.360904758291284,
+      "electricity_error": 460280.01474860974,
+      "gas_error": 1136.5516073462868,
+      "eui_error": 26.73909524170871
+    }
+  },
+  {
+    "index": 175,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.412728002396303,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.7658045985393476,
+      "hours_of_operation_start": 8.00392281628682,
+      "hours_of_operation_duration": 12.721561320976171,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 906151.128997224,
+      "gas_hat": 1780.2566907423727,
+      "eui_hat": 59.93059606328383,
+      "electricity_error": 438054.97100277606,
+      "gas_error": 1780.2566907423727,
+      "eui_error": 24.169403936716165
+    }
+  },
+  {
+    "index": 176,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.719293347092685,
+      "number_of_stories": 8,
+      "aspect_ratio": 2.802837347289286,
+      "hours_of_operation_start": 8.46721384129905,
+      "hours_of_operation_duration": 11.936704702059671,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 776091.3330041668,
+      "gas_hat": 5219.319843931289,
+      "eui_hat": 58.100359468536396,
+      "electricity_error": 568114.7669958333,
+      "gas_error": 5219.319843931289,
+      "eui_error": 25.999640531463598
+    }
+  },
+  {
+    "index": 177,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.261153853675346,
+      "number_of_stories": 7,
+      "aspect_ratio": 1.7176625249744784,
+      "hours_of_operation_start": 6.717127391095042,
+      "hours_of_operation_duration": 13.43603317005757,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 946556.844729164,
+      "gas_hat": 1194.4586872786765,
+      "eui_hat": 61.38375775190203,
+      "electricity_error": 397649.25527083606,
+      "gas_error": 1194.4586872786765,
+      "eui_error": 22.716242248097963
+    }
+  },
+  {
+    "index": 178,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.334753006061378,
+      "number_of_stories": 3,
+      "aspect_ratio": 3.2657510880103646,
+      "hours_of_operation_start": 8.352524595082674,
+      "hours_of_operation_duration": 10.00526290889632,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 770541.0400736125,
+      "gas_hat": 1706.7009207673625,
+      "eui_hat": 51.31517816730025,
+      "electricity_error": 573665.0599263876,
+      "gas_error": 1706.7009207673625,
+      "eui_error": 32.78482183269974
+    }
+  },
+  {
+    "index": 179,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.944540955779209,
+      "number_of_stories": 4,
+      "aspect_ratio": 1.5674089369809687,
+      "hours_of_operation_start": 9.747588076908794,
+      "hours_of_operation_duration": 9.718185851828542,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 732619.1068208317,
+      "gas_hat": 4497.861143821113,
+      "eui_hat": 54.05943011097487,
+      "electricity_error": 611586.9931791684,
+      "gas_error": 4497.861143821113,
+      "eui_error": 30.04056988902512
+    }
+  },
+  {
+    "index": 180,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.71741228307682,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.660622796860252,
+      "hours_of_operation_start": 8.718567646097705,
+      "hours_of_operation_duration": 13.077392338922035,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 900135.0046250004,
+      "gas_hat": 1115.1788781235498,
+      "eui_hat": 58.335383496936515,
+      "electricity_error": 444071.0953749997,
+      "gas_error": 1115.1788781235498,
+      "eui_error": 25.76461650306348
+    }
+  },
+  {
+    "index": 181,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.983496931263831,
+      "number_of_stories": 8,
+      "aspect_ratio": 1.9323810006577502,
+      "hours_of_operation_start": 9.771517565969226,
+      "hours_of_operation_duration": 15.272064246036967,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 1009128.6430180604,
+      "gas_hat": 5319.266541776816,
+      "eui_hat": 72.85692053070571,
+      "electricity_error": 335077.45698193973,
+      "gas_error": 5319.266541776816,
+      "eui_error": 11.243079469294287
+    }
+  },
+  {
+    "index": 182,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.193990571646987,
+      "number_of_stories": 5,
+      "aspect_ratio": 3.71163050332714,
+      "hours_of_operation_start": 7.5408713729372865,
+      "hours_of_operation_duration": 14.52822134274199,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 900007.9151902773,
+      "gas_hat": 5102.409431721599,
+      "eui_hat": 65.63540963712217,
+      "electricity_error": 444198.1848097228,
+      "gas_error": 5102.409431721599,
+      "eui_error": 18.46459036287783
+    }
+  },
+  {
+    "index": 183,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.029934362534476,
+      "number_of_stories": 5,
+      "aspect_ratio": 3.742658353387536,
+      "hours_of_operation_start": 8.767580107605003,
+      "hours_of_operation_duration": 14.071484217807196,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 893275.4610111108,
+      "gas_hat": 4879.454812176651,
+      "eui_hat": 64.80574329522682,
+      "electricity_error": 450930.6389888893,
+      "gas_error": 4879.454812176651,
+      "eui_error": 19.294256704773176
+    }
+  },
+  {
+    "index": 184,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.121633608264666,
+      "number_of_stories": 2,
+      "aspect_ratio": 1.9356132476828467,
+      "hours_of_operation_start": 6.912899024509916,
+      "hours_of_operation_duration": 11.235420531273505,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 902559.2416861135,
+      "gas_hat": 1754.6228215420954,
+      "eui_hat": 59.65898854082164,
+      "electricity_error": 441646.85831388657,
+      "gas_error": 1754.6228215420954,
+      "eui_error": 24.441011459178355
+    }
+  },
+  {
+    "index": 185,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.457491341982486,
+      "number_of_stories": 2,
+      "aspect_ratio": 1.402039073779207,
+      "hours_of_operation_start": 9.9860420687969,
+      "hours_of_operation_duration": 14.755026271206223,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1078117.9040958295,
+      "gas_hat": 1355.9317169594121,
+      "eui_hat": 69.90710154822051,
+      "electricity_error": 266088.1959041706,
+      "gas_error": 1355.9317169594121,
+      "eui_error": 14.192898451779485
+    }
+  },
+  {
+    "index": 186,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.891964393750443,
+      "number_of_stories": 4,
+      "aspect_ratio": 3.500930251396287,
+      "hours_of_operation_start": 8.855177182406617,
+      "hours_of_operation_duration": 8.236016935477625,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 688642.7464499992,
+      "gas_hat": 4968.472005330419,
+      "eui_hat": 52.17185211547725,
+      "electricity_error": 655563.3535500009,
+      "gas_error": 4968.472005330419,
+      "eui_error": 31.928147884522744
+    }
+  },
+  {
+    "index": 187,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.139320135623702,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.842836537384842,
+      "hours_of_operation_start": 8.470378143302769,
+      "hours_of_operation_duration": 15.656434295797219,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1074607.4979930506,
+      "gas_hat": 1398.8853645104512,
+      "eui_hat": 69.76629984610216,
+      "electricity_error": 269598.6020069495,
+      "gas_error": 1398.8853645104512,
+      "eui_error": 14.333700153897837
+    }
+  },
+  {
+    "index": 188,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.061458427017465,
+      "number_of_stories": 4,
+      "aspect_ratio": 1.3921935403971601,
+      "hours_of_operation_start": 6.347850383731332,
+      "hours_of_operation_duration": 9.980620015420255,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 826076.8465763902,
+      "gas_hat": 4489.242245088709,
+      "eui_hat": 59.888167614140656,
+      "electricity_error": 518129.2534236099,
+      "gas_error": 4489.242245088709,
+      "eui_error": 24.21183238585934
+    }
+  },
+  {
+    "index": 189,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.464077845697318,
+      "number_of_stories": 1,
+      "aspect_ratio": 3.787957166564213,
+      "hours_of_operation_start": 9.41147572745519,
+      "hours_of_operation_duration": 8.686310523569368,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 753498.8524888884,
+      "gas_hat": 1012.3725967886221,
+      "eui_hat": 48.976820827913286,
+      "electricity_error": 590707.2475111117,
+      "gas_error": 1012.3725967886221,
+      "eui_error": 35.12317917208671
+    }
+  },
+  {
+    "index": 190,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.6073215474355225,
+      "number_of_stories": 2,
+      "aspect_ratio": 3.1349168244306815,
+      "hours_of_operation_start": 9.912778399459013,
+      "hours_of_operation_duration": 12.140483211795765,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 909887.7249000039,
+      "gas_hat": 1131.041363845908,
+      "eui_hat": 58.9743594894319,
+      "electricity_error": 434318.3750999962,
+      "gas_error": 1131.041363845908,
+      "eui_error": 25.125640510568097
+    }
+  },
+  {
+    "index": 191,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.6437167770097436,
+      "number_of_stories": 4,
+      "aspect_ratio": 1.4698976666691927,
+      "hours_of_operation_start": 6.614228776323348,
+      "hours_of_operation_duration": 13.144059139868101,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 949136.7261041672,
+      "gas_hat": 4572.776828988782,
+      "eui_hat": 67.73702698618578,
+      "electricity_error": 395069.3738958329,
+      "gas_error": 4572.776828988782,
+      "eui_error": 16.362973013814212
+    }
+  },
+  {
+    "index": 192,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.298600059461653,
+      "number_of_stories": 12,
+      "aspect_ratio": 3.972074947043239,
+      "hours_of_operation_start": 6.7883553445465115,
+      "hours_of_operation_duration": 8.143297504449771,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 840860.110805559,
+      "gas_hat": 5284.094182416012,
+      "eui_hat": 62.26950359806027,
+      "electricity_error": 503345.9891944411,
+      "gas_error": 5284.094182416012,
+      "eui_error": 21.830496401939726
+    }
+  },
+  {
+    "index": 193,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.958134431432104,
+      "number_of_stories": 11,
+      "aspect_ratio": 1.9825580687508784,
+      "hours_of_operation_start": 9.182150360927086,
+      "hours_of_operation_duration": 15.570374804951415,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1027233.8217652758,
+      "gas_hat": 1338.6142621680006,
+      "eui_hat": 66.69324094721263,
+      "electricity_error": 316972.2782347243,
+      "gas_error": 1338.6142621680006,
+      "eui_error": 17.406759052787365
+    }
+  },
+  {
+    "index": 194,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.817179640287454,
+      "number_of_stories": 10,
+      "aspect_ratio": 4.228223704362966,
+      "hours_of_operation_start": 6.687632804599279,
+      "hours_of_operation_duration": 9.898612986520849,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 881374.9914263905,
+      "gas_hat": 1144.1452589899557,
+      "eui_hat": 57.21528586227711,
+      "electricity_error": 462831.1085736096,
+      "gas_error": 1144.1452589899557,
+      "eui_error": 26.88471413772288
+    }
+  },
+  {
+    "index": 195,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.0267401561545664,
+      "number_of_stories": 9,
+      "aspect_ratio": 3.5652516888442753,
+      "hours_of_operation_start": 8.699572776342896,
+      "hours_of_operation_duration": 10.658702796901444,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 725415.4590194433,
+      "gas_hat": 5057.866253036403,
+      "eui_hat": 54.63534038632663,
+      "electricity_error": 618790.6409805568,
+      "gas_error": 5057.866253036403,
+      "eui_error": 29.464659613673362
+    }
+  },
+  {
+    "index": 196,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.600875448857648,
+      "number_of_stories": 5,
+      "aspect_ratio": 4.941505745816868,
+      "hours_of_operation_start": 6.5863709250528935,
+      "hours_of_operation_duration": 12.240815309549514,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 937978.2152041716,
+      "gas_hat": 1205.2156627969473,
+      "eui_hat": 60.86699480491804,
+      "electricity_error": 406227.8847958285,
+      "gas_error": 1205.2156627969473,
+      "eui_error": 23.23300519508195
+    }
+  },
+  {
+    "index": 197,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.986936563232685,
+      "number_of_stories": 3,
+      "aspect_ratio": 3.774407679601368,
+      "hours_of_operation_start": 9.997517463170587,
+      "hours_of_operation_duration": 14.514833213491169,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 985666.6016291659,
+      "gas_hat": 2245.9298441864335,
+      "eui_hat": 65.75673440574336,
+      "electricity_error": 358539.49837083416,
+      "gas_error": 2245.9298441864335,
+      "eui_error": 18.343265594256636
+    }
+  },
+  {
+    "index": 198,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.827415852995756,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.68811606591763,
+      "hours_of_operation_start": 7.415301852849988,
+      "hours_of_operation_duration": 10.241839264201234,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 765866.4559222227,
+      "gas_hat": 1064.5126362335814,
+      "eui_hat": 49.84581398881932,
+      "electricity_error": 578339.6440777774,
+      "gas_error": 1064.5126362335814,
+      "eui_error": 34.25418601118067
+    }
+  },
+  {
+    "index": 199,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.4231419572862163,
+      "number_of_stories": 10,
+      "aspect_ratio": 1.4803090724130175,
+      "hours_of_operation_start": 8.204693165883995,
+      "hours_of_operation_duration": 13.591975455458618,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 926856.5779361078,
+      "gas_hat": 1202.6713327301675,
+      "eui_hat": 60.16682142945411,
+      "electricity_error": 417349.52206389233,
+      "gas_error": 1202.6713327301675,
+      "eui_error": 23.933178570545884
+    }
+  },
+  {
+    "index": 200,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.031053089811055,
+      "number_of_stories": 1,
+      "aspect_ratio": 2.5160340883767276,
+      "hours_of_operation_start": 8.621429545713449,
+      "hours_of_operation_duration": 14.156140998216085,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 922394.5682930525,
+      "gas_hat": 1163.71528042149,
+      "eui_hat": 59.816381874231006,
+      "electricity_error": 421811.5317069476,
+      "gas_error": 1163.71528042149,
+      "eui_error": 24.28361812576899
+    }
+  },
+  {
+    "index": 201,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.40794623444631,
+      "number_of_stories": 2,
+      "aspect_ratio": 4.186291171561969,
+      "hours_of_operation_start": 9.679311311519534,
+      "hours_of_operation_duration": 14.337740676256221,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1051716.0557597224,
+      "gas_hat": 1368.5616888779175,
+      "eui_hat": 68.27916699303454,
+      "electricity_error": 292490.0442402777,
+      "gas_error": 1368.5616888779175,
+      "eui_error": 15.820833006965458
+    }
+  },
+  {
+    "index": 202,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.086643006872176,
+      "number_of_stories": 10,
+      "aspect_ratio": 1.1783752914384618,
+      "hours_of_operation_start": 8.926008160227557,
+      "hours_of_operation_duration": 10.295175349350375,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 807951.4676361125,
+      "gas_hat": 1063.6418044571546,
+      "eui_hat": 52.47607382734844,
+      "electricity_error": 536254.6323638876,
+      "gas_error": 1063.6418044571546,
+      "eui_error": 31.62392617265155
+    }
+  },
+  {
+    "index": 203,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.370599993609243,
+      "number_of_stories": 4,
+      "aspect_ratio": 1.0771330064842406,
+      "hours_of_operation_start": 6.40550648192994,
+      "hours_of_operation_duration": 9.73758624631493,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 845618.4779888889,
+      "gas_hat": 1042.7636772361955,
+      "eui_hat": 54.79337636769993,
+      "electricity_error": 498587.62201111123,
+      "gas_error": 1042.7636772361955,
+      "eui_error": 29.306623632300067
+    }
+  },
+  {
+    "index": 204,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.9243024294703592,
+      "number_of_stories": 12,
+      "aspect_ratio": 4.79852799116362,
+      "hours_of_operation_start": 6.272641881236704,
+      "hours_of_operation_duration": 13.93653339554224,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 994787.6922041667,
+      "gas_hat": 5376.195888132717,
+      "eui_hat": 72.06442805377361,
+      "electricity_error": 349418.4077958334,
+      "gas_error": 5376.195888132717,
+      "eui_error": 12.035571946226383
+    }
+  },
+  {
+    "index": 205,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.0203364931003223,
+      "number_of_stories": 6,
+      "aspect_ratio": 2.896993570063068,
+      "hours_of_operation_start": 7.115174776351854,
+      "hours_of_operation_duration": 11.937825393484905,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 811622.7970527782,
+      "gas_hat": 5230.348352994691,
+      "eui_hat": 60.342591987601686,
+      "electricity_error": 532583.3029472219,
+      "gas_error": 5230.348352994691,
+      "eui_error": 23.757408012398308
+    }
+  },
+  {
+    "index": 206,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.804974030296261,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.109692162160517,
+      "hours_of_operation_start": 7.592074227731311,
+      "hours_of_operation_duration": 12.79888690631805,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 833395.842397222,
+      "gas_hat": 5256.305244758624,
+      "eui_hat": 61.751780402037824,
+      "electricity_error": 510810.25760277815,
+      "gas_error": 5256.305244758624,
+      "eui_error": 22.34821959796217
+    }
+  },
+  {
+    "index": 207,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.8660788378988538,
+      "number_of_stories": 7,
+      "aspect_ratio": 2.9702214158395703,
+      "hours_of_operation_start": 7.516447192910064,
+      "hours_of_operation_duration": 8.445125822083236,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 715804.4683874972,
+      "gas_hat": 5278.467307131422,
+      "eui_hat": 54.43862860797805,
+      "electricity_error": 628401.6316125029,
+      "gas_error": 5278.467307131422,
+      "eui_error": 29.66137139202194
+    }
+  },
+  {
+    "index": 208,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 4.8362082871140935,
+      "number_of_stories": 9,
+      "aspect_ratio": 1.2607530959863391,
+      "hours_of_operation_start": 9.451375029071185,
+      "hours_of_operation_duration": 14.297688089572826,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 975064.8478513891,
+      "gas_hat": 5125.705979770747,
+      "eui_hat": 70.3719182339812,
+      "electricity_error": 369141.252148611,
+      "gas_error": 5125.705979770747,
+      "eui_error": 13.72808176601879
+    }
+  },
+  {
+    "index": 209,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.767905446276556,
+      "number_of_stories": 8,
+      "aspect_ratio": 1.759150135304096,
+      "hours_of_operation_start": 6.577235804205927,
+      "hours_of_operation_duration": 10.99979691831039,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 874892.7393777753,
+      "gas_hat": 4727.276023084488,
+      "eui_hat": 63.377229271726875,
+      "electricity_error": 469313.36062222475,
+      "gas_error": 4727.276023084488,
+      "eui_error": 20.72277072827312
+    }
+  },
+  {
+    "index": 210,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.781619531221025,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.1208420997676414,
+      "hours_of_operation_start": 9.537752096020512,
+      "hours_of_operation_duration": 11.837394153904468,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 834599.2061680527,
+      "gas_hat": 4632.55347425607,
+      "eui_hat": 60.68379470071487,
+      "electricity_error": 509606.89383194735,
+      "gas_error": 4632.55347425607,
+      "eui_error": 23.416205299285124
+    }
+  },
+  {
+    "index": 211,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.309453741353543,
+      "number_of_stories": 12,
+      "aspect_ratio": 3.5481662052509515,
+      "hours_of_operation_start": 7.683284982755164,
+      "hours_of_operation_duration": 13.16747846521794,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 876926.0496680564,
+      "gas_hat": 1164.336046733043,
+      "eui_hat": 56.97407049378138,
+      "electricity_error": 467280.05033194367,
+      "gas_error": 1164.336046733043,
+      "eui_error": 27.12592950621861
+    }
+  },
+  {
+    "index": 212,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.935371568465767,
+      "number_of_stories": 10,
+      "aspect_ratio": 1.2208121678189219,
+      "hours_of_operation_start": 8.49375596193438,
+      "hours_of_operation_duration": 14.4349329122615,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 994343.3666750002,
+      "gas_hat": 1320.0850201083742,
+      "eui_hat": 64.60242062144314,
+      "electricity_error": 349862.7333249999,
+      "gas_error": 1320.0850201083742,
+      "eui_error": 19.49757937855685
+    }
+  },
+  {
+    "index": 213,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.890559888013437,
+      "number_of_stories": 5,
+      "aspect_ratio": 2.5070531282126844,
+      "hours_of_operation_start": 9.654295247756359,
+      "hours_of_operation_duration": 15.102711617286936,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 940941.3546458333,
+      "gas_hat": 4880.378519911489,
+      "eui_hat": 67.78830194359846,
+      "electricity_error": 403264.74535416684,
+      "gas_error": 4880.378519911489,
+      "eui_error": 16.31169805640154
+    }
+  },
+  {
+    "index": 214,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.854459063938007,
+      "number_of_stories": 11,
+      "aspect_ratio": 4.6046209620784015,
+      "hours_of_operation_start": 9.680056619893186,
+      "hours_of_operation_duration": 12.185535588514549,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 933327.8175694473,
+      "gas_hat": 5494.746561110392,
+      "eui_hat": 68.4382179189515,
+      "electricity_error": 410878.28243055276,
+      "gas_error": 5494.746561110392,
+      "eui_error": 15.6617820810485
+    }
+  },
+  {
+    "index": 215,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.325639658339732,
+      "number_of_stories": 11,
+      "aspect_ratio": 1.427279637848827,
+      "hours_of_operation_start": 9.506550249048653,
+      "hours_of_operation_duration": 11.054632334719404,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 881275.3609472231,
+      "gas_hat": 1184.51360439401,
+      "eui_hat": 57.283044208052175,
+      "electricity_error": 462930.73905277695,
+      "gas_error": 1184.51360439401,
+      "eui_error": 26.81695579194782
+    }
+  },
+  {
+    "index": 216,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.861908318908057,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.571770982394268,
+      "hours_of_operation_start": 8.420232519990353,
+      "hours_of_operation_duration": 15.917565882111091,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 990633.029718053,
+      "gas_hat": 5472.127834489184,
+      "eui_hat": 71.98043769880708,
+      "electricity_error": 353573.07028194715,
+      "gas_error": 5472.127834489184,
+      "eui_error": 12.119562301192914
+    }
+  },
+  {
+    "index": 217,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.225733470297474,
+      "number_of_stories": 1,
+      "aspect_ratio": 3.033215002823026,
+      "hours_of_operation_start": 7.969261392833283,
+      "hours_of_operation_duration": 11.02464123508295,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 853023.3969152775,
+      "gas_hat": 1688.1774106279572,
+      "eui_hat": 56.43939830164447,
+      "electricity_error": 491182.7030847226,
+      "gas_error": 1688.1774106279572,
+      "eui_error": 27.660601698355528
+    }
+  },
+  {
+    "index": 218,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.9727457229043264,
+      "number_of_stories": 2,
+      "aspect_ratio": 2.0761222992032056,
+      "hours_of_operation_start": 8.336419464733392,
+      "hours_of_operation_duration": 12.287143885717093,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 842289.6763472204,
+      "gas_hat": 1101.0878922184318,
+      "eui_hat": 54.69210346258356,
+      "electricity_error": 501916.42365277966,
+      "gas_error": 1101.0878922184318,
+      "eui_error": 29.407896537416434
+    }
+  },
+  {
+    "index": 219,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.277526938985803,
+      "number_of_stories": 10,
+      "aspect_ratio": 2.8557207294036666,
+      "hours_of_operation_start": 6.587556304247549,
+      "hours_of_operation_duration": 11.58732574182965,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 860313.7172513887,
+      "gas_hat": 5116.085404355971,
+      "eui_hat": 63.17813313228255,
+      "electricity_error": 483892.3827486114,
+      "gas_error": 5116.085404355971,
+      "eui_error": 20.921866867717448
+    }
+  },
+  {
+    "index": 220,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 5.851805166109916,
+      "number_of_stories": 11,
+      "aspect_ratio": 3.1253160318764523,
+      "hours_of_operation_start": 6.908128291057216,
+      "hours_of_operation_duration": 14.095287983241594,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 866214.5181736154,
+      "gas_hat": 5255.2716945375505,
+      "eui_hat": 63.80225633178393,
+      "electricity_error": 477991.58182638464,
+      "gas_error": 5255.2716945375505,
+      "eui_error": 20.297743668216064
+    }
+  },
+  {
+    "index": 221,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.079208503905662,
+      "number_of_stories": 8,
+      "aspect_ratio": 4.84762132080376,
+      "hours_of_operation_start": 7.723193199007387,
+      "hours_of_operation_duration": 9.761527559795987,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 840225.9897291607,
+      "gas_hat": 1118.4213195022219,
+      "eui_hat": 54.594816878777834,
+      "electricity_error": 503980.1102708394,
+      "gas_error": 1118.4213195022219,
+      "eui_error": 29.50518312122216
+    }
+  },
+  {
+    "index": 222,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.595601009176145,
+      "number_of_stories": 10,
+      "aspect_ratio": 3.358554200125294,
+      "hours_of_operation_start": 6.783921140680619,
+      "hours_of_operation_duration": 11.07557433698696,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 850126.6362763911,
+      "gas_hat": 1125.211202708177,
+      "eui_hat": 55.22641501550337,
+      "electricity_error": 494079.463723609,
+      "gas_error": 1125.211202708177,
+      "eui_error": 28.873584984496624
+    }
+  },
+  {
+    "index": 223,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.494837922208056,
+      "number_of_stories": 9,
+      "aspect_ratio": 2.564525935585164,
+      "hours_of_operation_start": 8.731517712235833,
+      "hours_of_operation_duration": 8.602659394717758,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 704232.541209724,
+      "gas_hat": 1008.7287031969469,
+      "eui_hat": 45.889191732537995,
+      "electricity_error": 639973.5587902761,
+      "gas_error": 1008.7287031969469,
+      "eui_error": 38.210808267462
+    }
+  },
+  {
+    "index": 224,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 6.389339008646722,
+      "number_of_stories": 6,
+      "aspect_ratio": 3.4979151441655256,
+      "hours_of_operation_start": 8.753182419943808,
+      "hours_of_operation_duration": 13.765703150026932,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 866092.650751387,
+      "gas_hat": 1196.820002506013,
+      "eui_hat": 56.35612398486682,
+      "electricity_error": 478113.4492486131,
+      "gas_error": 1196.820002506013,
+      "eui_error": 27.743876015133175
+    }
+  },
+  {
+    "index": 225,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 17.32477449988935,
+      "number_of_stories": 11,
+      "aspect_ratio": 1.3532248274898993,
+      "hours_of_operation_start": 6.194469528387097,
+      "hours_of_operation_duration": 9.469732926814306,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 832100.3297986122,
+      "gas_hat": 4610.8224107014,
+      "eui_hat": 60.48769366464452,
+      "electricity_error": 512105.77020138793,
+      "gas_error": 4610.8224107014,
+      "eui_error": 23.612306335355477
+    }
+  },
+  {
+    "index": 226,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.148451506168597,
+      "number_of_stories": 10,
+      "aspect_ratio": 1.4286519744365562,
+      "hours_of_operation_start": 7.850738989978269,
+      "hours_of_operation_duration": 15.70798835743965,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 1053643.2590569467,
+      "gas_hat": 1341.7277717315292,
+      "eui_hat": 68.35050544493137,
+      "electricity_error": 290562.84094305336,
+      "gas_error": 1341.7277717315292,
+      "eui_error": 15.749494555068623
+    }
+  },
+  {
+    "index": 227,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.66601151680663,
+      "number_of_stories": 3,
+      "aspect_ratio": 3.279366366825925,
+      "hours_of_operation_start": 8.459082115669645,
+      "hours_of_operation_duration": 14.37184769650936,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 927983.1097430543,
+      "gas_hat": 1906.42817968935,
+      "eui_hat": 61.52714788145594,
+      "electricity_error": 416222.99025694584,
+      "gas_error": 1906.42817968935,
+      "eui_error": 22.572852118544056
+    }
+  },
+  {
+    "index": 228,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.388513136840283,
+      "number_of_stories": 11,
+      "aspect_ratio": 1.0047112137278713,
+      "hours_of_operation_start": 6.345117705561174,
+      "hours_of_operation_duration": 13.45413058537226,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 984041.2410180514,
+      "gas_hat": 1221.8213477356896,
+      "eui_hat": 63.778058085175225,
+      "electricity_error": 360164.8589819487,
+      "gas_error": 1221.8213477356896,
+      "eui_error": 20.32194191482477
+    }
+  },
+  {
+    "index": 229,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 13.467258577961216,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.1978558053910615,
+      "hours_of_operation_start": 6.511403062354597,
+      "hours_of_operation_duration": 8.196164757259016,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 876543.8585694414,
+      "gas_hat": 1005.9719901348,
+      "eui_hat": 56.659912838204065,
+      "electricity_error": 467662.24143055873,
+      "gas_error": 1005.9719901348,
+      "eui_error": 27.44008716179593
+    }
+  },
+  {
+    "index": 230,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 18.905417494668782,
+      "number_of_stories": 2,
+      "aspect_ratio": 4.0699118474447005,
+      "hours_of_operation_start": 8.350227787882414,
+      "hours_of_operation_duration": 8.200951447072562,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 874629.452308339,
+      "gas_hat": 1049.2121714853024,
+      "eui_hat": 56.61944480250335,
+      "electricity_error": 469576.64769166114,
+      "gas_error": 1049.2121714853024,
+      "eui_error": 27.480555197496642
+    }
+  },
+  {
+    "index": 231,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.2921680709,
+      "number_of_stories": 9,
+      "aspect_ratio": 4.855743752706684,
+      "hours_of_operation_start": 8.98982808683573,
+      "hours_of_operation_duration": 11.091373249954138,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 889350.2053361104,
+      "gas_hat": 1170.0606298152675,
+      "eui_hat": 57.76152792500615,
+      "electricity_error": 454855.89466388966,
+      "gas_error": 1170.0606298152675,
+      "eui_error": 26.338472074993845
+    }
+  },
+  {
+    "index": 232,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.5109396349256,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.489885525044661,
+      "hours_of_operation_start": 7.606292731607683,
+      "hours_of_operation_duration": 12.751692379463893,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 957679.2076888912,
+      "gas_hat": 1261.9345658633176,
+      "eui_hat": 62.20298594612955,
+      "electricity_error": 386526.8923111089,
+      "gas_error": 1261.9345658633176,
+      "eui_error": 21.897014053870443
+    }
+  },
+  {
+    "index": 233,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.134455434882895,
+      "number_of_stories": 8,
+      "aspect_ratio": 4.24851558545287,
+      "hours_of_operation_start": 6.911158938251395,
+      "hours_of_operation_duration": 8.274559854324249,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 843635.1525125023,
+      "gas_hat": 5360.842639033305,
+      "eui_hat": 62.583713421480724,
+      "electricity_error": 500570.9474874978,
+      "gas_error": 5360.842639033305,
+      "eui_error": 21.51628657851927
+    }
+  },
+  {
+    "index": 234,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.812170501780807,
+      "number_of_stories": 9,
+      "aspect_ratio": 1.5656217189257218,
+      "hours_of_operation_start": 7.650040213001916,
+      "hours_of_operation_duration": 12.173331023176669,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 884181.7387527768,
+      "gas_hat": 1126.6636101351496,
+      "eui_hat": 57.35876931154672,
+      "electricity_error": 460024.36124722334,
+      "gas_error": 1126.6636101351496,
+      "eui_error": 26.74123068845327
+    }
+  },
+  {
+    "index": 235,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 14.820672125637016,
+      "number_of_stories": 11,
+      "aspect_ratio": 2.779671674010056,
+      "hours_of_operation_start": 7.076329909387678,
+      "hours_of_operation_duration": 9.01160406087891,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 756427.1987208363,
+      "gas_hat": 1051.8359977470168,
+      "eui_hat": 49.23228009182909,
+      "electricity_error": 587778.9012791638,
+      "gas_error": 1051.8359977470168,
+      "eui_error": 34.867719908170905
+    }
+  },
+  {
+    "index": 236,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 7.136548200376875,
+      "number_of_stories": 10,
+      "aspect_ratio": 2.802332194915039,
+      "hours_of_operation_start": 6.235460643895756,
+      "hours_of_operation_duration": 13.431521081645716,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 882228.5469583309,
+      "gas_hat": 1214.8680414274452,
+      "eui_hat": 57.39828823981983,
+      "electricity_error": 461977.5530416692,
+      "gas_error": 1214.8680414274452,
+      "eui_error": 26.701711760180167
+    }
+  },
+  {
+    "index": 237,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.66581027796665,
+      "number_of_stories": 8,
+      "aspect_ratio": 1.9644196424840215,
+      "hours_of_operation_start": 8.921646068674749,
+      "hours_of_operation_duration": 9.689641599750471,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 716720.9738916716,
+      "gas_hat": 1046.7179365016661,
+      "eui_hat": 46.7398049224441,
+      "electricity_error": 627485.1261083285,
+      "gas_error": 1046.7179365016661,
+      "eui_error": 37.36019507755589
+    }
+  },
+  {
+    "index": 238,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 16.245887257907054,
+      "number_of_stories": 3,
+      "aspect_ratio": 2.320644142504729,
+      "hours_of_operation_start": 6.256681171172578,
+      "hours_of_operation_duration": 8.652624802270914,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 826514.4811333361,
+      "gas_hat": 1005.1612697451468,
+      "eui_hat": 53.52975690251938,
+      "electricity_error": 517691.618866664,
+      "gas_error": 1005.1612697451468,
+      "eui_error": 30.570243097480613
+    }
+  },
+  {
+    "index": 239,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.641810933297052,
+      "number_of_stories": 1,
+      "aspect_ratio": 2.3359014222614554,
+      "hours_of_operation_start": 7.320258179036998,
+      "hours_of_operation_duration": 8.302157608523286,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 778732.0027583324,
+      "gas_hat": 996.674776285785,
+      "eui_hat": 50.52604602346057,
+      "electricity_error": 565474.0972416677,
+      "gas_error": 996.674776285785,
+      "eui_error": 33.57395397653942
+    }
+  },
+  {
+    "index": 240,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 9.816832283384446,
+      "number_of_stories": 5,
+      "aspect_ratio": 2.9760876760482122,
+      "hours_of_operation_start": 6.889650885828548,
+      "hours_of_operation_duration": 9.8047269355806,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 752894.703631945,
+      "gas_hat": 4809.336190733314,
+      "eui_hat": 55.89828350193415,
+      "electricity_error": 591311.3963680551,
+      "gas_error": 4809.336190733314,
+      "eui_error": 28.201716498065842
+    }
+  },
+  {
+    "index": 241,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 12.56089193320162,
+      "number_of_stories": 5,
+      "aspect_ratio": 3.8365492233657124,
+      "hours_of_operation_start": 7.453791595789379,
+      "hours_of_operation_duration": 11.292316509605337,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 852463.4405263902,
+      "gas_hat": 5010.426055628215,
+      "eui_hat": 62.493545906137555,
+      "electricity_error": 491742.6594736099,
+      "gas_error": 5010.426055628215,
+      "eui_error": 21.60645409386244
+    }
+  },
+  {
+    "index": 242,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 15.020756618955625,
+      "number_of_stories": 9,
+      "aspect_ratio": 3.9914015053112024,
+      "hours_of_operation_start": 7.033316042498294,
+      "hours_of_operation_duration": 11.385991465602995,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 939005.7461527772,
+      "gas_hat": 5224.523367101516,
+      "eui_hat": 68.29801947550271,
+      "electricity_error": 405200.35384722287,
+      "gas_error": 5224.523367101516,
+      "eui_error": 15.801980524497282
+    }
+  },
+  {
+    "index": 243,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 8.93992457030605,
+      "number_of_stories": 4,
+      "aspect_ratio": 1.319252581397667,
+      "hours_of_operation_start": 8.122215644922232,
+      "hours_of_operation_duration": 9.06892733318087,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 778922.7156805558,
+      "gas_hat": 990.2583314863209,
+      "eui_hat": 50.52621222600236,
+      "electricity_error": 565283.3843194443,
+      "gas_error": 990.2583314863209,
+      "eui_error": 33.57378777399764
+    }
+  },
+  {
+    "index": 244,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 19.67201826968521,
+      "number_of_stories": 6,
+      "aspect_ratio": 4.332143905029859,
+      "hours_of_operation_start": 6.414165780162084,
+      "hours_of_operation_duration": 12.706679891751364,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 990018.2145013866,
+      "gas_hat": 5180.421828357924,
+      "eui_hat": 71.40733743978232,
+      "electricity_error": 354187.88549861347,
+      "gas_error": 5180.421828357924,
+      "eui_error": 12.69266256021767
+    }
+  },
+  {
+    "index": 245,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 11.73010378275199,
+      "number_of_stories": 1,
+      "aspect_ratio": 1.4135659419537925,
+      "hours_of_operation_start": 7.268889825923027,
+      "hours_of_operation_duration": 9.014690006276636,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 827548.4876000019,
+      "gas_hat": 1686.7586236059306,
+      "eui_hat": 54.843682222357025,
+      "electricity_error": 516657.61239999824,
+      "gas_error": 1686.7586236059306,
+      "eui_error": 29.25631777764297
+    }
+  },
+  {
+    "index": 246,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.5601433949882384,
+      "number_of_stories": 12,
+      "aspect_ratio": 3.311816238368084,
+      "hours_of_operation_start": 7.69139778915879,
+      "hours_of_operation_duration": 9.39937937086837,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 723376.4737416697,
+      "gas_hat": 5158.7930677181785,
+      "eui_hat": 54.692812228343016,
+      "electricity_error": 620829.6262583304,
+      "gas_error": 5158.7930677181785,
+      "eui_error": 29.40718777165698
+    }
+  },
+  {
+    "index": 247,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 2.3376014665714115,
+      "number_of_stories": 11,
+      "aspect_ratio": 3.4952112210678945,
+      "hours_of_operation_start": 9.659612050109093,
+      "hours_of_operation_duration": 9.065451151005426,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 714013.2217874973,
+      "gas_hat": 5397.47044988928,
+      "eui_hat": 54.54472429853132,
+      "electricity_error": 630192.8782125028,
+      "gas_error": 5397.47044988928,
+      "eui_error": 29.555275701468673
+    }
+  },
+  {
+    "index": 248,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 3.510658795531525,
+      "number_of_stories": 4,
+      "aspect_ratio": 1.09160659764762,
+      "hours_of_operation_start": 6.267575097877025,
+      "hours_of_operation_duration": 10.037891781297313,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 857315.358693054,
+      "gas_hat": 4530.595319054491,
+      "eui_hat": 61.917513485449945,
+      "electricity_error": 486890.74130694615,
+      "gas_error": 4530.595319054491,
+      "eui_error": 22.18248651455005
+    }
+  },
+  {
+    "index": 249,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 1.8789596613236268,
+      "number_of_stories": 4,
+      "aspect_ratio": 2.193586599458663,
+      "hours_of_operation_start": 9.381390317973658,
+      "hours_of_operation_duration": 15.7198820388904,
+      "heating_source": "Electricity"
+    },
+    "outputs": {
+      "electricity_hat": 981109.2485388858,
+      "gas_hat": 1315.5356435810427,
+      "eui_hat": 63.76646481621669,
+      "electricity_error": 363096.85146111425,
+      "gas_error": 1315.5356435810427,
+      "eui_error": 20.333535183783304
+    }
+  },
+  {
+    "index": 250,
+    "inputs": {
+      "floor_area": 54560.0,
+      "lpd": 10.340413181150378,
+      "number_of_stories": 9,
+      "aspect_ratio": 2.2331105052797384,
+      "hours_of_operation_start": 8.716196871781637,
+      "hours_of_operation_duration": 9.653829629637409,
+      "heating_source": "NaturalGas"
+    },
+    "outputs": {
+      "electricity_hat": 715840.8742291669,
+      "gas_hat": 5024.762669719928,
+      "eui_hat": 53.9759041393312,
+      "electricity_error": 628365.2257708332,
+      "gas_error": 5024.762669719928,
+      "eui_error": 30.124095860668795
+    }
+  }
+]

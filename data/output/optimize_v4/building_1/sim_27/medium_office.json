@@ -1,0 +1,99 @@
+{
+  "variables": [
+    {
+      "name": "Month",
+      "data_source": "epw",
+      "data_source_field": "month"
+    },
+    {
+      "name": "Hour",
+      "data_source": "epw",
+      "data_source_field": "hour"
+    },
+    {
+      "name": "DayofWeek",
+      "data_source": "epw",
+      "data_source_field": "dayofweek_int"
+    },
+    {
+      "name": "SiteOutdoorAirDrybulbTemperature",
+      "data_source": "epw",
+      "data_source_field": "dry_bulb"
+    },
+    {
+      "name": "SiteOutdoorAirRelativeHumidity",
+      "data_source": "epw",
+      "data_source_field": "rh"
+    },
+    {
+      "name": "floor_area",
+      "data_source": "value",
+      "value": 54560.0
+    },
+    {
+      "name": "floor_height",
+      "data_source": "value",
+      "value": 10
+    },
+    {
+      "name": "number_of_stories",
+      "data_source": "value",
+      "value": 10
+    },
+    {
+      "name": "building_rotation",
+      "data_source": "value",
+      "value": 45
+    },
+    {
+      "name": "aspect_ratio",
+      "data_source": "value",
+      "value": 3.5964919555958166
+    },
+    {
+      "name": "overall_wwr",
+      "data_source": "value",
+      "value": 45
+    },
+    {
+      "name": "hours_of_operation_start_time",
+      "data_source": "value",
+      "value": 7.1783990007048075
+    },
+    {
+      "name": "hours_of_operation_duration",
+      "data_source": "value",
+      "value": 14.702397513730848
+    },
+    {
+      "name": "lpd",
+      "data_source": "value",
+      "value": 4.290888829131495
+    },
+    {
+      "name": "epd",
+      "data_source": "value",
+      "value": 2
+    },
+    {
+      "name": "people_average",
+      "data_source": "value",
+      "value": 10
+    },
+    {
+      "name": "heating_source",
+      "data_source": "value",
+      "value": "NaturalGas"
+    },
+    {
+      "name": "target_standard",
+      "data_source": "value",
+      "value": "90.1-2004"
+    },
+    {
+      "name": "building_type",
+      "data_source": "value",
+      "value": "MediumOffice"
+    }
+  ]
+}
