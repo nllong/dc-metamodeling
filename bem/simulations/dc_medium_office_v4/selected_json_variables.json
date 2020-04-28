@@ -1,0 +1,156 @@
+[
+  {
+    "file": "results.json",
+    "data": [
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "bldg_type_a",
+        "rename_to": "building_type",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "total_bldg_floor_area",
+        "rename_to": "floor_area",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "floor_height",
+        "rename_to": "floor_height",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "num_stories_above_grade",
+        "rename_to": "number_of_stories",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "num_stories_below_grade",
+        "rename_to": "number_of_stories_below_grade",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "building_rotation",
+        "rename_to": "building_rotation",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "ns_to_ew_ratio",
+        "rename_to": "aspect_ratio",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "wwr",
+        "rename_to": "overall_wwr",
+        "order": 1
+      },
+      {
+        "level_1": "create_bar_from_doe_building_type_ratios",
+        "level_2": "floor_area_to_perim_ratio",
+        "rename_to": "floor_area_to_perim_ratio",
+        "order": 1
+      },
+      {
+        "level_1": "change_building_location",
+        "level_2": "weather_file_name",
+        "rename_to": "weather_file_name",
+        "order": 1
+      },
+      {
+        "level_1": "create_typical_doe_building_from_model",
+        "level_2": "template",
+        "rename_to": "target_standard",
+        "order": 1
+      },
+      {
+        "level_1": "create_typical_doe_building_from_model",
+        "level_2": "htg_src",
+        "rename_to": "heating_source",
+        "order": 1
+      },
+      {
+        "level_1": "create_typical_doe_building_from_model",
+        "level_2": "wkdy_op_hrs_start_time",
+        "rename_to": "hours_of_operation_start_time",
+        "order": 1
+      },
+      {
+        "level_1": "create_typical_doe_building_from_model",
+        "level_2": "wkdy_op_hrs_duration",
+        "rename_to": "hours_of_operation_duration",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "lpd_average",
+        "rename_to": "lpd",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "epd_average",
+        "rename_to": "epd",
+        "order": 1
+      },
+      {
+        "level_1": "internal_loads_multiplier",
+        "level_2": "ppl_average",
+        "rename_to": "people_average",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "total_site_eui",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "eui",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_occupied_heating",
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "openstudio_results",
+        "level_2": "unmet_hours_during_occupied_cooling",
+        "rename_to": "",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "file": "variables.json",
+    "data": [
+      {
+        "level_1": "_id",
+        "level_2": null,
+        "rename_to": "id",
+        "order": 1
+      },
+      {
+        "level_1": "run_start_time",
+        "level_2": null,
+        "rename_to": "",
+        "order": 1
+      },
+      {
+        "level_1": "run_end_time",
+        "level_2": null,
+        "rename_to": "",
+        "order": 2
+      }
+    ]
+  }
+]

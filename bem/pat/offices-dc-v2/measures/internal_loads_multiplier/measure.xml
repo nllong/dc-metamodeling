@@ -1,0 +1,86 @@
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>internal_loads_multiplier</name>
+  <uid>8c10b18d-c66d-43dc-9ef5-b82dfed0edde</uid>
+  <version_id>8b9e078c-393a-44ad-a57b-c616827f0271</version_id>
+  <version_modified>20180927T020345Z</version_modified>
+  <xml_checksum>2C38F48B</xml_checksum>
+  <class_name>InternalLoadsMultiplier</class_name>
+  <display_name>Internal Loads Multiplier</display_name>
+  <description>Multipliers for LPD, EPD, and people densities.</description>
+  <modeler_description>Multipliers for LPD, EPD, and people densities.</modeler_description>
+  <arguments>
+    <argument>
+      <name>lpd_multiplier</name>
+      <display_name>LPD Multiplier</display_name>
+      <description>Multiply the LPD in the building by this multiplier. Retail LPD is typically 1.3, Small Office 1.0</description>
+      <type>Double</type>
+      <units>W/ft^2</units>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+    <argument>
+      <name>epd_multiplier</name>
+      <display_name>Electric Equipment Power Density Multiplier</display_name>
+      <description>Multiply the EPD in the building by this value</description>
+      <type>Double</type>
+      <units>W/ft^2</units>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+    <argument>
+      <name>people_per_floor_area_multiplier</name>
+      <display_name>People per floor area multipleir</display_name>
+      <type>Double</type>
+      <units>People/ft^2</units>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+  </arguments>
+  <outputs/>
+  <provenances/>
+  <tags>
+    <tag>Whole Building.Space Types</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>example_model.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>53D14E69</checksum>
+    </file>
+    <file>
+      <filename>os_lib_helper_methods.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>02263B97</checksum>
+    </file>
+    <file>
+      <filename>internal_loads_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>612DB218</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.1.0</identifier>
+        <min_compatible>2.1.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>1CC8AEDC</checksum>
+    </file>
+  </files>
+</measure>

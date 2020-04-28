@@ -137,10 +137,10 @@ for index, row in df.iterrows():
     problem.types[4] = Real(8, 16)  # hours_of_operation_duration
     problem.types[5] = Subset(['Electricity', 'NaturalGas'], 1)  # heating source
     # problem.types[6] = Subset(['Electricity', 'NaturalGas'], 1)  # heating source
-
     # problem.types[1] = Integer(1, 13)
-    algorithm = NSGAII(problem, population_size=15, variator=SSX())
-    algorithm.run(30)
+
+    algorithm = NSGAII(problem, population_size=250, variator=SSX())
+    algorithm.run(50)
 
     for h in history:
         print(h)

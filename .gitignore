@@ -1,6 +1,28 @@
 .idea
+.DS_Store
 .python-version
 .ipynb_checkpoints
+*.swp
 
 assignment
 paper
+
+# pat projects
+bem/pat/*/clusters
+bem/pat/*/logs/
+bem/pat/*/localResults
+bem/pat/*/data
+bem/pat/*/results.xml
+bem/pat/*/DC_Medium*.zip
+bem/pat/*/DC_Medium*.json
+bem/pat/*/offices-dc*.zip
+bem/pat/*/offices-dc*.json
+bem/pat/*/test_cluster.json
+bem/pat/*/sweep*.json
+bem/pat/*/sweep*.zip
+bem/pat/**/local_configuration.*
+bem/pat/**/server.pid
+bem/pat/**/data_point/initialize.args
+bem/pat/**/analysis/initialize.args
+bem/simulations/dc_medium_office_v4/simulation_results.csv
+
