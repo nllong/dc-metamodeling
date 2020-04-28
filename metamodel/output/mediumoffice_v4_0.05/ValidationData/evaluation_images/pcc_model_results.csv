@@ -1,0 +1,3 @@
+name,model_method,pearson
+ElectricityFacility,RandomForest,0.9911770383218568
+GasFacility,RandomForest,0.7843969380264132
