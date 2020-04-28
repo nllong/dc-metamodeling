@@ -4,8 +4,12 @@
 .ipynb_checkpoints
 *.swp
 __pycache__
-assignment
-paper
+~$*
+
+# metamodels
+metamodel/**/data/data.csv
+metamodel/**/*.pkl
+metamodel/**/models.zip
 
 # pat projects
 bem/pat/*/clusters
@@ -25,4 +29,10 @@ bem/pat/**/server.pid
 bem/pat/**/data_point/initialize.args
 bem/pat/**/analysis/initialize.args
 bem/simulations/dc_medium_office_v4/simulation_results.csv
+
+# assignment and paper
+assignment
+paper/*.pptx
+paper/*.docx
+paper/*.pdf
 
