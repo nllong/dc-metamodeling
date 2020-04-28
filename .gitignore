@@ -35,4 +35,5 @@ assignment
 paper/*.pptx
 paper/*.docx
 paper/*.pdf
-
+!paper/Long_GridConnectedSystem_FinalProjectReport_v1.docx
+!paper/2020-04-28 DC Metamodeling.pptx
