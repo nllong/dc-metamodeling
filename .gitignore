@@ -32,7 +32,6 @@ bem/pat/**/analysis/initialize.args
 bem/simulations/dc_medium_office_v4/simulation_results.csv
 
 # assignment and paper
-assignment
 paper/*.pptx
 paper/*.docx
 paper/*.pdf
