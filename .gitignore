@@ -5,6 +5,7 @@
 *.swp
 __pycache__
 ~$*
+Peer_Evaluation_Final_Long.docx
 
 # metamodels
 metamodel/**/data/data.csv
