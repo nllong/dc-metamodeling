@@ -8,7 +8,7 @@ Platypus-Opt==1.0.4
 # other libraries
 slycot
 control
-numpy==1.18.3
+numpy==1.22.0
 matplotlib==3.2.1
 pandas==1.0.3
 scipy==1.4.1
