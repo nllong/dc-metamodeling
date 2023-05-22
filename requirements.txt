@@ -18,5 +18,5 @@ pyfiglet==0.8.post1
 # plotly and required plotly packages to save the images
 plotly
 psutil
-requests==2.23.0
+requests==2.31.0
 
